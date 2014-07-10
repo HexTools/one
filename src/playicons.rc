@@ -1,0 +1,2 @@
+#include "wx/msw/wx.rc"
+frame_icon ICON "htp_32x32.ico"
