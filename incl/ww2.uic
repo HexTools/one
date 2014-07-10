@@ -1,0 +1,363 @@
+// UIC for WW2
+
+UT( ARM, "Armored/Panzer", "Arm", PATH"armor.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_FULL, AEC_FULL,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 | UTF_WW1 );
+
+UT( AMPH_ARM, "Amphibious Armor", "Amph Arm", PATH"ampharmor.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_FULL, AEC_FULL,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( LT_ARM, "Light Armor", "Lt Arm", PATH"ltarmor.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_HALF, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 | UTF_WW1 );
+
+UT( RECON, "Reconnaissance", "Recon", PATH"ltarmor.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_HALF, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+	
+UT( FL_TANK, "Flamethrower Tank", "Fl Tnk", PATH"fltank.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_HALF, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_ENGINEER | UTF_WW2 );
+
+UT( ENG_TANK, "Engineer Tank", "Eng Tnk", PATH"engtank.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_HALF, AEC_HALF, AEC_HALF,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_ENGINEER | UTF_WW2 | UTF_WW1 );
+
+UT( ASLT_ENG_TANK, "Assault Engineer Tank", "Aslt Eng Tnk", PATH"asltengtank.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_HALF, AEC_HALF,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_ENGINEER | UTF_WW2 | UTF_WW1 );
+
+UT( STURMPZ, "Sturmpanzer", "Sturmpz", PATH"sturmpz.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_HALF, AEC_FULL,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_ENGINEER | UTF_WW2 );
+
+UT( MECH, "Mechanized", "Mech", PATH"mech.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_HALF, AEC_HALF, AEC_FULL,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( MECH_CMDO, "Mechanized Commando", "Mech Cdo", PATH"mechcmdo.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( ASLT_GUN, "Assault Gun", "Aslt Gun", PATH"asltgun.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_FULL, AEC_HALF, AEC_FULL,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( MOTORCYCLE, "Motorcycle", "Motorcycle", PATH"motorcycle.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 | UTF_WW1 );
+
+UT( ART, "Artillery", "Art", PATH"art.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 );
+
+UT( COASTART, "Coast Artillery", "Coast Art", PATH"coastart.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 | UTF_WW1 );
+
+UT( SIEGE_ART, "Siege Artillery", "Sge Art", PATH"siegeart.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 | UTF_WW1 );
+
+UT( LR_SIEGE_ART, "Long Range Siege Artillery", "LR Sge Art", PATH"lrsiegeart.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 );
+
+UT( RKT_ART, "Rocket Artillery", "Rkt Art", PATH"rktart.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 );
+
+UT( MORTAR, "Mortar", "Mortar", PATH"mortar.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 );
+
+UT( MIXED, "Mixed", "Mxd", PATH"mixed.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_THIRD, AEC_THIRD, AEC_THIRD,
+	UTF_HAS_HE | UTF_WW2 );
+
+UT( CAV, "Cavalry", "Cav", PATH"cavalry.bmp",
+	MP_CAV, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_WW2 );
+
+UT( AT, "Antitank", "AT", PATH"antitank.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_FULL,
+	UTF_HAS_HE | UTF_WW2 | UTF_WW1 );
+
+UT( HV_AA, "Heavy Antiaircraft", "Hv AA", PATH"hvaa.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_FULL,
+	UTF_HAS_HE | UTF_WW2 | UTF_WW1 );
+
+UT( POS_HV_AA, "Positional Heavy Antiaircraft", "Pos AA", PATH"hvaa.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_WW2 | UTF_WW1 );
+
+UT( POS_LT_AA, "Positional Light Antiaircraft", "Pos AA", PATH"ltaa.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( V_WEAPONS, "V-weapons", "V-wpns", PATH"vweapons.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_WW2 );
+
+UT( PORT_FORT, "Port Fortification", "Port Fort", PATH"portfort.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_WW2 );
+
+UT( ASLT_ENG, "Assault Engineer", "Aslt Eng", PATH"aslteng.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_HALF,
+	UTF_HAS_HE | UTF_ENGINEER | UTF_WW2 | UTF_WW1 );
+
+UT( AMPH_ASLT_ENG, "Amphibious Assault Engineer", "Amph Aslt Eng", PATH"amphaslteng.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_HALF,
+	UTF_HAS_HE | UTF_ENGINEER | UTF_WW2 );
+
+UT( RR_ENG, "Railroad Engineer", "RR Eng", PATH"rreng.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_WW2 | UTF_WW1 );
+
+UT( PORT_CONS, "Port Construction", "Port Cons", PATH"portconst.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_CONSTRUCTION | UTF_WW2 );
+
+UT( PL_CONS, "Pipeline Construction", "PL Cons", PATH"portconst.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_WW2 );
+
+// non motorized, non HE units
+
+UT( INF, "Infantry", "Inf", PATH"infantry.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( MTN, "Mountain/Alpine", "Mtn", PATH"mtn.bmp",
+	MP_MTN, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( LT_INF, "Light infantry/Jager", "Lt Inf", PATH"ltinf.bmp",
+	MP_LIGHT, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( STC, "Static", "Stc", PATH"static.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( FORT, "Fortress", "Fort", PATH"fortress.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( PUNITIVE, "Punitive", "Pntive", PATH"punitive.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_CONSTRUCTION | UTF_WW2 );
+
+UT( PNTIVE_FORT, "Punitive Fortress", "Pntive Fort", PATH"pntivefort.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( MARINE, "Marine", "Marine", PATH"marine.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( NVL_TRPS, "Naval Troops", "Nvl Trps", PATH"nvltrps.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( MARINE_CMDO, "Marine Commando", "Mrn Cdo", PATH"marinecmdo.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( BDR, "Border", "Bdr", PATH"border.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( MG, "Machinegun", "MG", PATH"machinegun.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( SKI, "Ski", "Ski", PATH"ski.bmp",
+	MP_SKI, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( HIGH_MOUNTAIN, "High Mountain", "High Mtn", PATH"highmtn.bmp",
+	MP_MTN, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( SEC, "Security", "Sec", PATH"security.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( POL, "Police", "Pol", PATH"police.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( PLTCL_POL, "Political Police", "Pltcl Pol", PATH"pltclpol.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( LT_AA, "Light Antiaircraft", "Lt AA", PATH"ltaa.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( TRNG, "Training", "Trng", PATH"training.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( RES, "Reserve", "Res", PATH"reserve.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( REPL, "Replacement", "Repl", PATH"reserve.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( ENG, "Combat Engineer", "Eng", PATH"engineer.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_ENGINEER | UTF_CONSTRUCTION | UTF_WW2 | UTF_WW1 );
+
+UT( CONS, "Construction", "Cons", PATH"construction.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_CONSTRUCTION | UTF_WW2 | UTF_WW1 );
+
+UT( BICYCLE, "Bicycle", "Bicycle", PATH"bicycle.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( CMDO, "Commando", "Cmdo", PATH"commando.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( PARA_CMDO, "Parachute Commando", "Para Cmdo", PATH"paracmdo.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( AIR_LNDG, "Air Landing", "Air Lndg", PATH"airlndg.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( PARA, "Parachute", "Para", PATH"parachute.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( PARA_INF, "Parachute Infantry", "Para-inf", PATH"parainf.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( PARTISAN, "Partisan", "Prt", PATH"partisan.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 );
+
+UT( TRUCK, "Truck", "Truck", PATH"truck.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( COASTAL, "Coastal", "Coast", PATH"static.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW2 | UTF_WW1 );
+
+UT( FORTAREA, "Fortified Area", "Fort Area", PATH"fortarea.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_WW2 );
+
+UT( SUPPGRP, "Support Group", "Spt Grp", PATH"sg.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 );
+
+UT( TRANSPORT, "Transport", "Transport", PATH"transport.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 | UTF_WW1 );
+
+UT( APC, "APC", "APC", PATH"mech.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( LVT, "LVT", "LVT", PATH"lvt.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW2 );
+
+UT( HORS_ART, "Horse Artillery", "Hors.Art", PATH"horsart.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 | UTF_WW1 );
+
+UT( LT_ART, "Light Artillery", "Lt Art", PATH"ltart.bmp",
+	MP_CM_ART, UC_ARTILLERY,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_ARTILLERY | UTF_WW2 );
+
+UT( TANKFACT, "Tank Factory", "Tank fact", PATH"tankfact.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_RAIL_ONLY | UTF_WW2 | UTF_WW1 );
+
+UT( ARTYFACT, "Artillery Factory", "Arty fact", PATH"artyfact.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_HAS_HE | UTF_RAIL_ONLY | UTF_WW2 | UTF_WW1 );

@@ -1,0 +1,183 @@
+// cities
+LB(hbmFullHexCity   , "fullhex.bmp");
+LB(hbmPartialHexCity, "partialhex.bmp");
+LB(hbmMinorCity     , "refcity.bmp");
+LB(hbmMediumCity    , "dotcity.bmp");
+LB(hbmFortress      , "fortress.bmp");
+LB(hbmOuvrage       , "ouvrage.bmp");
+LB(hbmWestWall      , "westwall.bmp");
+LB(hbmPtCity        , "point_city.bmp");
+LB(hbmRefPt         , "refpoint.bmp");
+LB(hbmCityBgnd      , "citybgnd.bmp");
+//LB(hbmIronRes       , "ironrefpt.bmp");
+LB(hbmCoalRes       , "coalrefpt.bmp");
+LB(hbmOasis         , "oasis.bmp");
+LB(hbmWW1OFort      , "oldfortress.bmp");
+LB(hbmWW1NFort      , "newfortress.bmp");
+LB(hbmWW1GFort      , "greatfortress.bmp");
+LB(hbmNWGWall		, "nw_gwall.bmp");
+LB(hbmNEGWall		, "ne_gwall.bmp");
+LB(hbmEGWall		, "e_gwall.bmp");
+LB(hbmWGWall		, "w_gwall.bmp");
+LB(hbmSEGWall		, "se_gwall.bmp");
+LB(hbmSWGWall		, "sw_gwall.bmp");
+	
+// hexsides
+LB(hbmWWater		, "w_water.bmp");
+LB(hbmSWWater		, "sw_water.bmp");
+LB(hbmSEWater		, "se_water.bmp");
+
+LB(hbmWRWater		, "w_rwater.bmp");
+LB(hbmSWRWater		, "sw_rwater.bmp");
+LB(hbmSERWater		, "se_rwater.bmp");
+
+LB(hbmWMountain		, "w_mountain.bmp");
+LB(hbmSWMountain	, "sw_mountain.bmp");
+LB(hbmSEMountain	, "se_mountain.bmp");
+
+LB(hbmWHighMtn		, "w_highmtn.bmp");
+LB(hbmSWHighMtn		, "sw_highmtn.bmp");
+LB(hbmSEHighMtn		, "se_highmtn.bmp");
+
+LB(hbmWHighMtnPass	, "w_highmtnpass.bmp");
+LB(hbmSWHighMtnPass	, "sw_highmtnpass.bmp");
+LB(hbmSEHighMtnPass	, "se_highmtnpass.bmp");
+
+LB(hbmWKarst 		, "w_karst.bmp");
+LB(hbmSWKarst		, "sw_karst.bmp");
+LB(hbmSEKarst		, "se_karst.bmp");
+
+LB(hbmWCanal  		, "w_canal.bmp");
+LB(hbmSWCanal 		, "sw_canal.bmp");
+LB(hbmSECanal 		, "se_canal.bmp");
+
+LB(hbmWMinorCanal  	, "w_minor_canal.bmp");
+LB(hbmSWMinorCanal 	, "sw_minor_canal.bmp");
+LB(hbmSEMinorCanal 	, "se_minor_canal.bmp");
+
+LB(hbmWMinRiv		, "w_river.bmp");
+LB(hbmSWMinRiv		, "sw_river.bmp");
+LB(hbmSEMinRiv		, "se_river.bmp");
+LB(hbmWMinRivIce	, "w_minriver_ice.bmp");
+LB(hbmSWMinRivIce	, "sw_minriver_ice.bmp");
+LB(hbmSEMinRivIce	, "se_minriver_ice.bmp");
+
+LB(hbmWMajRiv		, "w_major_river.bmp");
+LB(hbmSWMajRiv		, "sw_major_river.bmp");
+LB(hbmSEMajRiv		, "se_major_river.bmp");
+LB(hbmWMajRivIce	, "w_majriver_ice.bmp");
+LB(hbmSWMajRivIce	, "sw_majriver_ice.bmp");
+LB(hbmSEMajRivIce	, "se_majriver_ice.bmp");
+
+LB(hbmWBorder		, "w_border.bmp");
+LB(hbmSWBorder		, "sw_border.bmp");
+LB(hbmSEBorder		, "se_border.bmp");
+
+LB(hbmWIBorder		, "w_iborder.bmp");
+LB(hbmSWIBorder		, "sw_iborder.bmp");
+LB(hbmSEIBorder		, "se_iborder.bmp");
+
+LB(hbmWBdrMinRiver	, "w_border_river.bmp");
+LB(hbmSWBdrMinRiver	, "sw_border_river.bmp");
+LB(hbmSEBdrMinRiver	, "se_border_river.bmp");
+
+LB(hbmWIBdrMinRiver	, "w_iborder_river.bmp");
+LB(hbmSWIBdrMinRiver, "sw_iborder_river.bmp");
+LB(hbmSEIBdrMinRiver, "se_iborder_river.bmp");
+
+LB(hbmWWadi			, "w_wadi.bmp");
+LB(hbmSWWadi		, "sw_wadi.bmp");
+LB(hbmSEWadi		, "se_wadi.bmp");
+
+LB(hbmWGlacier		, "w_glacier.bmp");
+LB(hbmSWGlacier		, "sw_glacier.bmp");
+LB(hbmSEGlacier		, "se_glacier.bmp");
+
+LB(hbmWSaltDesert	, "w_saltdesert.bmp");
+LB(hbmSWSaltDesert	, "sw_saltdesert.bmp");
+LB(hbmSESaltDesert	, "se_saltdesert.bmp");
+
+LB(hbmMinorPort		, "port_pacificminor.bmp");
+LB(hbmStandardPort	, "port_standard.bmp");
+LB(hbmMajorPort		, "port_major.bmp");
+LB(hbmGreatPort		, "port_great.bmp");
+LB(hbmMarginalPort	, "port_marginal.bmp");
+LB(hbmAnchorage		, "port_anchorage.bmp");
+LB(hbmArtificialPort, "port_artifical.bmp");
+LB(hbmStrongPort	, "port_strong.bmp");
+
+LB(hbmNWFort		, "nw_fort.bmp");
+LB(hbmNEFort		, "ne_fort.bmp");
+LB(hbmEFort 		, "e_fort.bmp");
+LB(hbmSEFort		, "se_fort.bmp");
+LB(hbmSWFort		, "sw_fort.bmp");
+LB(hbmWFort 		, "w_fort.bmp");
+
+LB(hbmNWEsc 		, "nw_escarpment.bmp");
+LB(hbmNEEsc 		, "ne_escarpment.bmp");
+LB(hbmEEsc  		, "e_escarpment.bmp");
+LB(hbmSWEsc 		, "sw_escarpment.bmp");
+LB(hbmSEEsc 		, "se_escarpment.bmp");
+LB(hbmWEsc  		, "w_escarpment.bmp");
+
+LB(hbmWMask			, "w_mask.bmp");
+LB(hbmSWMask		, "sw_mask.bmp");
+LB(hbmSEMask		, "se_mask.bmp");
+
+LB(hbmSWClear		, "sw_clear.bmp");
+LB(hbmSEClear		, "se_clear.bmp");
+LB(hbmWClear		, "w_clear.bmp");
+
+LB(hbmSWRough 		, "sw_rough.bmp");
+LB(hbmSERough 		, "se_rough.bmp");
+LB(hbmWRough  		, "w_rough.bmp");
+
+LB(hbmSWForest		, "sw_forest.bmp");
+LB(hbmSEForest		, "se_forest.bmp");
+LB(hbmWForest 		, "w_forest.bmp");
+
+LB(hbmSWWoods		, "sw_woods.bmp");
+LB(hbmSEWoods		, "se_woods.bmp");
+LB(hbmWWoods 		, "w_woods.bmp");
+
+LB(hbmEscColor		, "esccolor.bmp");
+
+
+//LH(NONE				, "None", "none.bmp");
+//LHW(CLEAR			, "Clear", "clear.bmp");
+//LHW(ROUGH			, "Rough", "rough.bmp");
+//LHW(WOODS			, "Woods", "woods.bmp");
+//LHW(WOODEDROUGH		, "Wooded Rough", "woodedrough.bmp");
+//LHW(FOREST			, "Forest", "forest.bmp");
+//LHW(MOUNTAIN		, "Mountain", "mountain.bmp");
+//LHW(SWAMP			, "Swamp", "swamp.bmp");
+//LHW(LAKE			, "Intermittent Lake", "lake.bmp");
+//LHW(WOODEDLAKE		, "Wooded Intermittent Lake", "woodedlake.bmp");
+//LHW(WOODEDSWAMP		, "Wooded Swamp", "woodedswamp.bmp");
+//LH(BOCAGE			, "Bocage", "bocage.bmp");
+//LH(CANALS			, "Canal Intensive", "canal.bmp");
+//LH(GLACIER			, "Glacier", "glacier.bmp");
+//LH(RAVINES			, "Ravines", "ravines.bmp");
+//LH(EXTREMERAVINES	, "Extreme Ravines", "extravines.bmp");
+//LH(SWAMPYTUNDRA		, "Tundra", "tundra.bmp");
+//LH(SALTDESERT		, "Salt Desert", "saltdesert.bmp");
+//LH(SALTLAKE			, "Salt Lake", "saltlake.bmp");
+//LH(SALTMARSH		, "Salt Marsh", "saltmarsh.bmp");
+//LH(SAND				, "Sand", "sand.bmp");
+//LH(STONYDESERT		, "Stony Desert", "stonydesert.bmp");
+//LH(ICINGSEA			, "Sea/Lake (subj. to icing)", "icingsea.bmp");
+//LH(SEA				, "Sea", "sea.bmp");
+//LH(RESTRICTEDWATERS	, "Restricted Water", "rwater.bmp");
+//LH(SEASONALSWAMP	, "Seasonal Swamp", "sswamp.bmp");
+//LH(HEAVYBUSH		, "Heavy Bush", "hbush.bmp");
+//LH(ROCKYTUNDRA		, "Rocky Tundra", "rockytundra.bmp");
+
+// ww2pacific
+//LH(JUNGLE			, "Jungle", "jungle.bmp");
+//LH(JUNGLEROUGH		, "Jungle Rough", "junglerough.bmp");
+//LH(JUNGLEMTN		, "Jungle Mountain", "junglemtn.bmp");
+//LH(JUNGLESWAMP		, "Jungle Swamp", "jungleswamp.bmp");
+//LH(EXTREMERAVINES	, "Extreme Ravines/Loess", "intravines.bmp");
+//LH(ATOLL			, "Atoll", "atoll.bmp");
+//LH(SMALLISLAND		, "Small Island", "smallisland.bmp");
+//LH(INTIRRIGATION	, "Intensive Irrigation", "intirrigation.bmp");

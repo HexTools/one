@@ -1,0 +1,1 @@
+#define ENUM_DIRS(d)			for ( d = 1; d <= Hex::LAST_DIR; d *= 2 )

@@ -1,0 +1,404 @@
+{ "256", "None" }, 
+{ "257", "Adriatic Sea" }, 
+{ "258", "Aegean Sea" }, 
+{ "259", "Antarctic Seas" }, 
+{ "260", "Arabian Sea" }, 
+{ "261", "Aral Seas" }, 
+{ "262", "Arctic Seas" }, 
+{ "263", "Atlantic Ocean" }, 
+{ "264", "Baltic Sea" }, 
+{ "265", "Barents Sea" }, 
+{ "266", "Bay of Bengal" }, 
+{ "267", "Bay of Biscay" }, 
+{ "268", "Black Sea" }, 
+{ "269", "Caribbean Sea" }, 
+{ "270", "Caspian Sea" }, 
+{ "271", "Celebes Sea" }, 
+{ "272", "Central Baltic" }, 
+{ "273", "Central Mediterranean" }, 
+{ "274", "East China Sea" }, 
+{ "275", "Eastern Mediterranean" }, 
+{ "276", "English Channel" }, 
+{ "277", "Equatorial Seas" }, 
+{ "278", "Formosa Straits" }, 
+{ "279", "Gulf of Bothnia" }, 
+{ "280", "Gulf of Finland" }, 
+{ "281", "Gulf of Mexico" }, 
+{ "282", "Gulf of Tonkin" }, 
+{ "283", "Indian Ocean" }, 
+{ "284", "Ionian Sea" }, 
+{ "285", "Irish Sea" }, 
+{ "286", "Lake Victoria" }, 
+{ "287", "Mediterranean" }, 
+{ "288", "North Atlantic" }, 
+{ "289", "North Sea" }, 
+{ "290", "Northern Pacific Ocean" }, 
+{ "291", "Norwegian Sea" }, 
+{ "292", "Pechora Sea" }, 
+{ "293", "Persian Gulf" }, 
+{ "294", "Philippine Sea" }, 
+{ "295", "Red Sea" }, 
+{ "296", "Sea of Marmara" }, 
+{ "297", "South Atlantic Ocean" }, 
+{ "298", "South China Sea" }, 
+{ "299", "South Indian Ocean" }, 
+{ "300", "Sulu Sea" }, 
+{ "301", "Western Mediterranean" }, 
+{ "302", "White Sea" }, 
+{ "303", "Yellow Sea" }, 
+{ "304", "Marmara 01" }, // SoM ? Sea of Marmara
+{ "305", "Marmara 02" }, // SoM ? Sea of Marmara
+{ "306", "Marmara 03" }, // SoM ? Sea of Marmara
+{ "307", "Marmara 04" }, // SoM ? Sea of Marmara
+{ "308", "Barent 119" }, // BntS Arctic Seas Barents Sea
+{ "309", "Barent 127" }, // BntS Arctic Seas Barents Sea
+{ "310", "Barent 128" }, // BntS Arctic Seas Barents Sea
+{ "311", "Barent 129" }, // BntS Arctic Seas Barents Sea
+{ "312", "Barent 130" }, // BntS Arctic Seas Barents Sea
+{ "313", "Barent 135" }, // BntS Arctic Seas Barents Sea
+{ "314", "Barent 136" }, // BntS Arctic Seas Barents Sea
+{ "315", "Barent 137" }, // BntS Arctic Seas Barents Sea
+{ "316", "Barent 138" }, // BntS Arctic Seas Barents Sea
+{ "317", "Barent 139" }, // BntS Arctic Seas Barents Sea
+{ "318", "Barent 140" }, // BntS Arctic Seas Barents Sea
+{ "319", "Barent 142" }, // BntS Arctic Seas Barents Sea
+{ "320", "Barent 143" }, // BntS Arctic Seas Barents Sea
+{ "321", "Barent 144" }, // BntS Arctic Seas Barents Sea
+{ "322", "Barent 145" }, // BntS Arctic Seas Barents Sea
+{ "323", "Barent 146" }, // BntS Arctic Seas Barents Sea
+{ "324", "Barent 147" }, // BntS Arctic Seas Barents Sea
+{ "325", "Barent 148" }, // BntS Arctic Seas Barents Sea
+{ "326", "Barent 149" }, // BntS Arctic Seas Barents Sea
+{ "327", "Barent 150" }, // BntS Arctic Seas Barents Sea
+{ "328", "Barent 151" }, // BntS Arctic Seas Barents Sea
+{ "329", "Barent 152" }, // BntS Arctic Seas Barents Sea
+{ "330", "Barent 153" }, // BntS Arctic Seas Barents Sea
+{ "331", "Barent 154" }, // BntS Arctic Seas Barents Sea
+{ "332", "Barent 155" }, // BntS Arctic Seas Barents Sea
+{ "333", "Barent 156" }, // BntS Arctic Seas Barents Sea
+{ "334", "Barent 157" }, // BntS Arctic Seas Barents Sea
+{ "335", "Barent 158" }, // BntS Arctic Seas Barents Sea
+{ "336", "Barent 159" }, // BntS Arctic Seas Barents Sea
+{ "337", "Barent 160" }, // BntS Arctic Seas Barents Sea
+{ "338", "Barent 161" }, // BntS Arctic Seas Barents Sea
+{ "339", "Barent 162" }, // BntS Arctic Seas Barents Sea
+{ "340", "Barent 163" }, // BntS Arctic Seas Barents Sea
+{ "341", "Barent 164" }, // BntS Arctic Seas Barents Sea
+{ "342", "Barent 165" }, // BntS Arctic Seas Barents Sea
+{ "343", "Barent 166" }, // BntS Arctic Seas Barents Sea
+{ "344", "Barent 167" }, // BntS Arctic Seas Barents Sea
+{ "345", "Pechora 11" }, // PchS Arctic Seas Pechora Sea
+{ "346", "Pechora 14" }, // PchS Arctic Seas Pechora Sea
+{ "347", "Pechora 15" }, // PchS Arctic Seas Pechora Sea
+{ "348", "Pechora 17" }, // PchS Arctic Seas Pechora Sea
+{ "349", "Pechora 18" }, // PchS Arctic Seas Pechora Sea
+{ "350", "Pechora 19" }, // PchS Arctic Seas Pechora Sea
+{ "351", "White 01" }, // WhS Arctic Seas White Sea
+{ "352", "White 02" }, // WhS Arctic Seas White Sea
+{ "353", "White 03" }, // WhS Arctic Seas White Sea
+{ "354", "White 04" }, // WhS Arctic Seas White Sea
+{ "355", "White 05" }, // WhS Arctic Seas White Sea
+{ "356", "White 06" }, // WhS Arctic Seas White Sea
+{ "357", "White 07" }, // WhS Arctic Seas White Sea
+{ "358", "White 08" }, // WhS Arctic Seas White Sea
+{ "359", "White 09" }, // WhS Arctic Seas White Sea
+{ "360", "White 10" }, // WhS Arctic Seas White Sea
+{ "361", "White 11" }, // WhS Arctic Seas White Sea
+{ "362", "White 12" }, // WhS Arctic Seas White Sea
+{ "363", "White 13" }, // WhS Arctic Seas White Sea
+{ "364", "White 14" }, // WhS Arctic Seas White Sea
+{ "365", "Norwegian 31" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "366", "Norwegian 32" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "367", "Norwegian 38" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "368", "Norwegian 39" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "369", "Norwegian 40" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "370", "Norwegian 44" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "371", "Norwegian 45" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "372", "Norwegian 46" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "373", "Norwegian 47" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "374", "Norwegian 48" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "375", "Norwegian 60" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "376", "Norwegian 61" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "377", "Norwegian 62" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "378", "Norwegian 74" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "379", "Norwegian 75" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "380", "Norwegian 76" }, // NnwS Atlantic Ocean Norwegian Sea
+{ "381", "Bothnia 01" }, // GB Baltic Sea Gulf of Bothnia
+{ "382", "Bothnia 02" }, // GB Baltic Sea Gulf of Bothnia
+{ "383", "Bothnia 03" }, // GB Baltic Sea Gulf of Bothnia
+{ "384", "Bothnia 04" }, // GB Baltic Sea Gulf of Bothnia
+{ "385", "Bothnia 05" }, // GB Baltic Sea Gulf of Bothnia
+{ "386", "Bothnia 06" }, // GB Baltic Sea Gulf of Bothnia
+{ "387", "Bothnia 07" }, // GB Baltic Sea Gulf of Bothnia
+{ "388", "Bothnia 08" }, // GB Baltic Sea Gulf of Bothnia
+{ "389", "Bothnia 09" }, // GB Baltic Sea Gulf of Bothnia
+{ "390", "Bothnia 10" }, // GB Baltic Sea Gulf of Bothnia
+{ "391", "Bothnia 11" }, // GB Baltic Sea Gulf of Bothnia
+{ "392", "Bothnia 12" }, // GB Baltic Sea Gulf of Bothnia
+{ "393", "Bothnia 13" }, // GB Baltic Sea Gulf of Bothnia
+{ "394", "Bothnia 14" }, // GB Baltic Sea Gulf of Bothnia
+{ "395", "Cntr Baltic 01" }, // CB Baltic Sea Central Baltic
+{ "396", "Cntr Baltic 02" }, // CB Baltic Sea Central Baltic
+{ "397", "Cntr Baltic 03" }, // CB Baltic Sea Central Baltic
+{ "398", "Cntr Baltic 04" }, // CB Baltic Sea Central Baltic
+{ "399", "Cntr Baltic 05" }, // CB Baltic Sea Central Baltic
+{ "400", "Cntr Baltic 06" }, // CB Baltic Sea Central Baltic
+{ "401", "Cntr Baltic 07" }, // CB Baltic Sea Central Baltic
+{ "402", "Cntr Baltic 08" }, // CB Baltic Sea Central Baltic
+{ "403", "Cntr Baltic 09" }, // CB Baltic Sea Central Baltic
+{ "404", "Cntr Baltic 10" }, // CB Baltic Sea Central Baltic
+{ "405", "Cntr Baltic 11" }, // CB Baltic Sea Central Baltic
+{ "406", "Cntr Baltic 12" }, // CB Baltic Sea Central Baltic
+{ "407", "Cntr Baltic 13" }, // CB Baltic Sea Central Baltic
+{ "408", "Cntr Baltic 14" }, // CB Baltic Sea Central Baltic
+{ "409", "Cntr Baltic 15" }, // CB Baltic Sea Central Baltic
+{ "410", "Cntr Baltic 16" }, // CB Baltic Sea Central Baltic
+{ "411", "Cntr Baltic 17" }, // CB Baltic Sea Central Baltic
+{ "412", "Cntr Baltic 18" }, // CB Baltic Sea Central Baltic
+{ "413", "Cntr Baltic 19" }, // CB Baltic Sea Central Baltic
+{ "414", "Cntr Baltic 20" }, // CB Baltic Sea Central Baltic
+{ "415", "Cntr Baltic 21" }, // CB Baltic Sea Central Baltic
+{ "416", "Cntr Baltic 22" }, // CB Baltic Sea Central Baltic
+{ "417", "Cntr Baltic 23" }, // CB Baltic Sea Central Baltic
+{ "418", "Cntr Baltic 24" }, // CB Baltic Sea Central Baltic
+{ "419", "Cntr Baltic 25" }, // CB Baltic Sea Central Baltic
+{ "420", "Cntr Baltic 26" }, // CB Baltic Sea Central Baltic
+{ "421", "Cntr Baltic 27" }, // CB Baltic Sea Central Baltic
+{ "422", "Cntr Baltic 28" }, // CB Baltic Sea Central Baltic
+{ "423", "Cntr Baltic 29" }, // CB Baltic Sea Central Baltic
+{ "424", "Cntr Baltic 30" }, // CB Baltic Sea Central Baltic
+{ "425", "Glf Finland 01" }, // GF Baltic Sea Gulf of Finland
+{ "426", "Glf Finland 02" }, // GF Baltic Sea Gulf of Finland
+{ "427", "Glf Finland 03" }, // GF Baltic Sea Gulf of Finland
+{ "428", "Glf Finland 04" }, // GF Baltic Sea Gulf of Finland
+{ "429", "Glf Finland 05" }, // GF Baltic Sea Gulf of Finland
+{ "430", "Black 01" }, // BS Black Sea Black Sea
+{ "431", "Black 02" }, // BS Black Sea Black Sea
+{ "432", "Black 03" }, // BS Black Sea Black Sea
+{ "433", "Black 04" }, // BS Black Sea Black Sea
+{ "434", "Black 05" }, // BS Black Sea Black Sea
+{ "435", "Black 06" }, // BS Black Sea Black Sea
+{ "436", "Black 07" }, // BS Black Sea Black Sea
+{ "437", "Black 08" }, // BS Black Sea Black Sea
+{ "438", "Black 09" }, // BS Black Sea Black Sea
+{ "439", "Black 10" }, // BS Black Sea Black Sea
+{ "440", "Black 11" }, // BS Black Sea Black Sea
+{ "441", "Black 12" }, // BS Black Sea Black Sea
+{ "442", "Black 13" }, // BS Black Sea Black Sea
+{ "443", "Black 14" }, // BS Black Sea Black Sea
+{ "444", "Black 15" }, // BS Black Sea Black Sea
+{ "445", "Black 16" }, // BS Black Sea Black Sea
+{ "446", "Black 17" }, // BS Black Sea Black Sea
+{ "447", "Black 18" }, // BS Black Sea Black Sea
+{ "448", "Black 19" }, // BS Black Sea Black Sea
+{ "449", "Black 20" }, // BS Black Sea Black Sea
+{ "450", "Black 21" }, // BS Black Sea Black Sea
+{ "451", "Black 22" }, // BS Black Sea Black Sea
+{ "452", "Black 23" }, // BS Black Sea Black Sea
+{ "453", "Black 24" }, // BS Black Sea Black Sea
+{ "454", "Black 25" }, // BS Black Sea Black Sea
+{ "455", "Black 26" }, // BS Black Sea Black Sea
+{ "456", "Black 27" }, // BS Black Sea Black Sea
+{ "457", "Black 28" }, // BS Black Sea Black Sea
+{ "458", "Black 29" }, // BS Black Sea Black Sea
+{ "459", "Black 30" }, // BS Black Sea Black Sea
+{ "460", "Black 31" }, // BS Black Sea Black Sea
+{ "461", "Black 32" }, // BS Black Sea Black Sea
+{ "462", "Black 33" }, // BS Black Sea Black Sea
+{ "463", "Black 34" }, // BS Black Sea Black Sea
+{ "464", "Black 35" }, // BS Black Sea Black Sea
+{ "465", "Black 36" }, // BS Black Sea Black Sea
+{ "466", "Black 37" }, // BS Black Sea Black Sea
+{ "467", "Black 38" }, // BS Black Sea Black Sea
+{ "468", "Black 39" }, // BS Black Sea Black Sea
+{ "469", "Black 40" }, // BS Black Sea Black Sea
+{ "470", "Black 41" }, // BS Black Sea Black Sea
+{ "471", "Black 42" }, // BS Black Sea Black Sea
+{ "472", "Black 43" }, // BS Black Sea Black Sea
+{ "473", "Black 44" }, // BS Black Sea Black Sea
+{ "474", "Black 45" }, // BS Black Sea Black Sea
+{ "475", "Black 46" }, // BS Black Sea Black Sea
+{ "476", "Black 47" }, // BS Black Sea Black Sea
+{ "477", "Black 48" }, // BS Black Sea Black Sea
+{ "478", "Black 49" }, // BS Black Sea Black Sea
+{ "479", "Indian 221" }, // IO Indian Ocean Indian Ocean
+{ "480", "Indian 222" }, // IO Indian Ocean Indian Ocean
+{ "481", "Indian 223" }, // IO Indian Ocean Indian Ocean
+{ "482", "Indian 224" }, // IO Indian Ocean Indian Ocean
+{ "483", "Indian 225" }, // IO Indian Ocean Indian Ocean
+{ "484", "Indian 226" }, // IO Indian Ocean Indian Ocean
+{ "485", "Indian 227" }, // IO Indian Ocean Indian Ocean
+{ "486", "Indian 228" }, // IO Indian Ocean Indian Ocean
+{ "487", "Indian 251" }, // IO Indian Ocean Indian Ocean
+{ "488", "Indian 252" }, // IO Indian Ocean Indian Ocean
+{ "489", "Indian 253" }, // IO Indian Ocean Indian Ocean
+{ "490", "Indian 254" }, // IO Indian Ocean Indian Ocean
+{ "491", "Indian 255" }, // IO Indian Ocean Indian Ocean
+{ "492", "Indian 256" }, // IO Indian Ocean Indian Ocean
+{ "493", "Indian 257" }, // IO Indian Ocean Indian Ocean
+{ "494", "Indian 281" }, // IO Indian Ocean Indian Ocean
+{ "495", "Indian 282" }, // IO Indian Ocean Indian Ocean
+{ "496", "Indian 283" }, // IO Indian Ocean Indian Ocean
+{ "497", "Indian 284" }, // IO Indian Ocean Indian Ocean
+{ "498", "Indian 285" }, // IO Indian Ocean Indian Ocean
+{ "499", "Indian 286" }, // IO Indian Ocean Indian Ocean
+{ "500", "Indian 287" }, // IO Indian Ocean Indian Ocean
+{ "501", "Indian 311" }, // IO Indian Ocean Indian Ocean
+{ "502", "Indian 341" }, // IO Indian Ocean Indian Ocean
+{ "503", "Indian 342" }, // IO Indian Ocean Indian Ocean
+{ "504", "Indian 371" }, // IO Indian Ocean Indian Ocean
+{ "505", "Indian 372" }, // IO Indian Ocean Indian Ocean
+{ "506", "Indian 373" }, // IO Indian Ocean Indian Ocean
+{ "507", "Indian 374" }, // IO Indian Ocean Indian Ocean
+{ "508", "Indian 401" }, // IO Indian Ocean Indian Ocean
+{ "509", "Indian 402" }, // IO Indian Ocean Indian Ocean
+{ "510", "Indian 403" }, // IO Indian Ocean Indian Ocean
+{ "511", "Indian 404" }, // IO Indian Ocean Indian Ocean
+{ "512", "Indian 405" }, // IO Indian Ocean Indian Ocean
+{ "513", "Indian 431" }, // IO Indian Ocean Indian Ocean
+{ "514", "Indian 432" }, // IO Indian Ocean Indian Ocean
+{ "515", "Indian 433" }, // IO Indian Ocean Indian Ocean
+{ "516", "Indian 434" }, // IO Indian Ocean Indian Ocean
+{ "517", "Indian 435" }, // IO Indian Ocean Indian Ocean
+{ "518", "Indian 461" }, // IO Indian Ocean Indian Ocean
+{ "519", "Indian 462" }, // IO Indian Ocean Indian Ocean
+{ "520", "Indian 463" }, // IO Indian Ocean Indian Ocean
+{ "521", "Indian 464" }, // IO Indian Ocean Indian Ocean
+{ "522", "Indian 465" }, // IO Indian Ocean Indian Ocean
+{ "523", "Indian 491" }, // IO Indian Ocean Indian Ocean
+{ "524", "Indian 492" }, // IO Indian Ocean Indian Ocean
+{ "525", "Indian 493" }, // IO Indian Ocean Indian Ocean
+{ "526", "Indian 494" }, // IO Indian Ocean Indian Ocean
+{ "527", "Indian 521" }, // IO Indian Ocean Indian Ocean
+{ "528", "Indian 522" }, // IO Indian Ocean Indian Ocean
+{ "529", "Indian 523" }, // IO Indian Ocean Indian Ocean
+{ "530", "Indian 524" }, // IO Indian Ocean Indian Ocean
+{ "531", "Indian 551" }, // IO Indian Ocean Indian Ocean
+{ "532", "Indian 552" }, // IO Indian Ocean Indian Ocean
+{ "533", "Indian 553" }, // IO Indian Ocean Indian Ocean
+{ "534", "Indian 581" }, // IO Indian Ocean Indian Ocean
+{ "535", "Indian 582" }, // IO Indian Ocean Indian Ocean
+{ "536", "Indian 583" }, // IO Indian Ocean Indian Ocean
+{ "537", "Indian 584" }, // IO Indian Ocean Indian Ocean
+{ "538", "Indian 611" }, // IO Indian Ocean Indian Ocean
+{ "539", "Indian 612" }, // IO Indian Ocean Indian Ocean
+{ "540", "Indian 613" }, // IO Indian Ocean Indian Ocean
+{ "541", "Indian 641" }, // IO Indian Ocean Indian Ocean
+{ "542", "Indian 642" }, // IO Indian Ocean Indian Ocean
+{ "543", "Indian 643" }, // IO Indian Ocean Indian Ocean
+{ "544", "Indian 671" }, // IO Indian Ocean Indian Ocean
+{ "545", "Indian 672" }, // IO Indian Ocean Indian Ocean
+{ "546", "Indian 701" }, // IO Indian Ocean Indian Ocean
+{ "547", "Indian 731" }, // IO Indian Ocean Indian Ocean
+{ "548", "Indian 761" }, // IO Indian Ocean Indian Ocean
+{ "549", "Adriatic 01" }, // AS Mediteranean Adriatic Sea
+{ "550", "Adriatic 02" }, // AS Mediteranean Adriatic Sea
+{ "551", "Adriatic 03" }, // AS Mediteranean Adriatic Sea
+{ "552", "Adriatic 04" }, // AS Mediteranean Adriatic Sea
+{ "553", "Adriatic 05" }, // AS Mediteranean Adriatic Sea
+{ "554", "Adriatic 06" }, // AS Mediteranean Adriatic Sea
+{ "555", "Adriatic 07" }, // AS Mediteranean Adriatic Sea
+{ "556", "Adriatic 08" }, // AS Mediteranean Adriatic Sea
+{ "557", "Adriatic 09" }, // AS Mediteranean Adriatic Sea
+{ "558", "Adriatic 10" }, // AS Mediteranean Adriatic Sea
+{ "559", "Adriatic 11" }, // AS Mediteranean Adriatic Sea
+{ "560", "Adriatic 12" }, // AS Mediteranean Adriatic Sea
+{ "561", "Adriatic 13" }, // AS Mediteranean Adriatic Sea
+{ "562", "Adriatic 14" }, // AS Mediteranean Adriatic Sea
+{ "563", "Adriatic 15" }, // AS Mediteranean Adriatic Sea
+{ "564", "Adriatic 16" }, // AS Mediteranean Adriatic Sea
+{ "565", "Adriatic 17" }, // AS Mediteranean Adriatic Sea
+{ "566", "Adriatic 18" }, // AS Mediteranean Adriatic Sea
+{ "567", "Adriatic 19" }, // AS Mediteranean Adriatic Sea
+{ "568", "Adriatic 20" }, // AS Mediteranean Adriatic Sea
+{ "569", "Aegean 01" }, // AegS Mediteranean Aegean Sea
+{ "570", "Aegean 02" }, // AegS Mediteranean Aegean Sea
+{ "571", "Aegean 03" }, // AegS Mediteranean Aegean Sea
+{ "572", "Ionian 01" }, // IS Mediteranean Ionian Sea
+{ "573", "Ionian 02" }, // IS Mediteranean Ionian Sea
+{ "574", "Ionian 03" }, // IS Mediteranean Ionian Sea
+{ "575", "Ionian 04" }, // IS Mediteranean Ionian Sea
+{ "576", "Ionian 05" }, // IS Mediteranean Ionian Sea
+{ "577", "Ionian 06" }, // IS Mediteranean Ionian Sea
+{ "578", "Ionian 07" }, // IS Mediteranean Ionian Sea
+{ "579", "Ionian 08" }, // IS Mediteranean Ionian Sea
+{ "580", "Ionian 09" }, // IS Mediteranean Ionian Sea
+{ "581", "Ionian 10" }, // IS Mediteranean Ionian Sea
+{ "582", "Ionian 11" }, // IS Mediteranean Ionian Sea
+{ "583", "Ionian 12" }, // IS Mediteranean Ionian Sea
+{ "584", "Ionian 13" }, // IS Mediteranean Ionian Sea
+{ "585", "Ionian 14" }, // IS Mediteranean Ionian Sea
+{ "586", "Ionian 15" }, // IS Mediteranean Ionian Sea
+{ "587", "Red 01" }, // RS Red Sea Red Sea
+{ "588", "Red 02" }, // RS Red Sea Red Sea
+{ "589", "Red 03" }, // RS Red Sea Red Sea
+{ "590", "Red 04" }, // RS Red Sea Red Sea
+{ "591", "Red 05" }, // RS Red Sea Red Sea
+{ "592", "Red 06" }, // RS Red Sea Red Sea
+{ "593", "Red 07" }, // RS Red Sea Red Sea
+{ "594", "Red 08" }, // RS Red Sea Red Sea
+{ "595", "Red 09" }, // RS Red Sea Red Sea
+{ "596", "Red 10" }, // RS Red Sea Red Sea
+{ "597", "Red 11" }, // RS Red Sea Red Sea
+{ "598", "Red 12" }, // RS Red Sea Red Sea
+{ "599", "Red 13" }, // RS Red Sea Red Sea
+{ "600", "Red 14" }, // RS Red Sea Red Sea
+{ "601", "Red 15" }, // RS Red Sea Red Sea
+{ "602", "Red 16" }, // RS Red Sea Red Sea
+{ "603", "Red 17" }, // RS Red Sea Red Sea
+{ "604", "Red 18" }, // RS Red Sea Red Sea
+{ "605", "Red 19" }, // RS Red Sea Red Sea
+{ "606", "Red 20" }, // RS Red Sea Red Sea
+{ "607", "Red 21" }, // RS Red Sea Red Sea
+{ "608", "Red 22" }, // RS Red Sea Red Sea
+{ "609", "Red 23" }, // RS Red Sea Red Sea
+{ "610", "Red 24" }, // RS Red Sea Red Sea
+{ "611", "Red 25" }, // RS Red Sea Red Sea
+{ "612", "Red 26" }, // RS Red Sea Red Sea
+{ "613", "Red 27" }, // RS Red Sea Red Sea
+{ "614", "Red 28" }, // RS Red Sea Red Sea
+{ "615", "Red 29" }, // RS Red Sea Red Sea
+{ "616", "Red 30" }, // RS Red Sea Red Sea
+{ "617", "Red 31" }, // RS Red Sea Red Sea
+{ "618", "Red 32" }, // RS Red Sea Red Sea
+{ "619", "Red 33" }, // RS Red Sea Red Sea
+{ "620", "Red 34" }, // RS Red Sea Red Sea
+{ "621", "Red 35" }, // RS Red Sea Red Sea
+{ "622", "Red 36" }, // RS Red Sea Red Sea
+{ "623", "Red 37" }, // RS Red Sea Red Sea
+{ "624", "Red 38" }, // RS Red Sea Red Sea
+{ "625", "Red 39" }, // RS Red Sea Red Sea
+{ "626", "Red 40" }, // RS Red Sea Red Sea
+{ "627", "Red 41" }, // RS Red Sea Red Sea
+{ "628", "Red 42" }, // RS Red Sea Red Sea
+{ "629", "Red 43" }, // RS Red Sea Red Sea
+{ "630", "Red 44" }, // RS Red Sea Red Sea
+{ "631", "Red 45" }, // RS Red Sea Red Sea
+{ "632", "Red 46" }, // RS Red Sea Red Sea
+{ "633", "Red 47" }, // RS Red Sea Red Sea
+{ "634", "Red 48" }, // RS Red Sea Red Sea
+{ "635", "Red 49" }, // RS Red Sea Red Sea
+{ "636", "Red 50" }, // RS Red Sea Red Sea
+{ "637", "Indian 495" }, 
+{ "638", "Indian 554" }, 
+{ "639", "Indian 673" }, 
+{ "640", "Indian 702" }, 
+{ "641", "Indian 198" }, 
+{ "642", "Lagoda 01" }, 
+{ "643", "Lagoda 02" }, 
+{ "644", "Lagoda 03" }, 
+{ "645", "Onega 01" }, 
+{ "646", "Onega 02" }, 
+{ "647", "Onega 03" }, 
+{ "648", "Barent 141" }, 
+{ "649", "Norwegian 37" }, 
+{ "650", "Norwegian 89" }, 
+{ "651", "Dnepr Estuary" }, 
+{ "652", "Sivash 01" }, 
+{ "653", "Sivash 02" }, 
+{ "654", "Azov 01" }, 
+{ "655", "Azov 02" }, 
+{ "656", "Azov 03" }, 
+{ "657", "Azov 04" }, 
+{ "658", "Azov 05" }, 
+{ "659", "Azov 06" },

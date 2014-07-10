@@ -1,0 +1,93 @@
+#
+# This is the Unit Identification Chart (UIC) for HexTools.
+# (c) 2013 HMSGRD 
+# All related materials are copyrights of Historical Military Services.
+#
+# #1 unit class
+# #2 unit type index
+# #3 unit type image filename
+# #4 unit type Fullname(Shortname)
+# #5 AECA AECD ATEC values (F|H|T|N|-), e.g. FFF or ---
+# #6 unit type flags (HE|ENG|CONS|LIGHT|MTN|SKI|RR|AMPH)
+# note: unit movement category (Mot/Art, Other, incl. Exceptions)
+#   will be derived from unit class and (sometimes) type
+#
+ERA:WW2
+#1 	#2			#3 		#4 						#5	#6
+#--	---			--- 		--- 						--- 	---
+C/m	ARM			armor		Armored(Arm)					FFF	HE
+C/m	AMPH_ARM		ampharmor 	Amphibious_Armor(Amph_Arm)			FFF	HE|AMPH
+C/m	LT_ARM			ltarmor		Light_Armor(Lt_Arm)				FHN	HE
+C/m	RECON			ltarmor		Reconnaissance(Recon)				FHN	HE
+C/m	FL_TANK			fltank		Flamethrower_Tank(Fl_Tnk)			NHN	HE|ENG
+C/m	ENG_TANK		engtank		Engineer_Tank(Eng_Tnk)				HHH	HE|ENG
+C/m	ASLT_ENG_TANK		asltengtank	Assault_Engineer_Tank(Aslt_Eng_Tnk)		FHH	HE|ENG
+C/m	STURMPZ			sturmpz		Sturmpanzer(Sturmpz)				FHF	HE|ENG
+C/m	MECH			mech		Mechanized(Mech)				HHF	HE
+C/m	MECH_CMDO		mechcmdo	Mechanized_Commando(Mech_Cdo)			NNN	HE
+C/m	ASLT_GUN		asltgun		Assault_Gun(Aslt_Gun)				FHF	HE
+C/m	MOTORCYCLE		motorcycle	Motorcycle(M/C)					NNN	HE
+C/m	TRUCK			truck		Truck(Truck)					NNN	HE
+C/m	TRANSPORT		transport	Transport(Transport)				NNN	HE
+C/m	APC			mech		APC(APC)					NNN	HE
+C/m	LVT			lvt		LVT(LVT)					NNN	HE|AMPH
+
+Art	ART			art		Artillery(Art)					NNN	HE
+Art	COASTART		coastart	Coast_Artillery(Coast_Art)			NNN	HE
+Art	SIEGE_ART		siegeart	Siege_Artillery(Sge_Art)			NNN	HE
+Art	LR_SIEGE_ART		lrsiegeart	Long_Range_Siege_Artillery(LR_Sge_Art)		NNN	HE
+Art	RKT_ART			rktart		Rocket_Artillery(Rkt_Art)			NNN	HE
+Art	SUPPGRP			sg		Support_Group(Spt_Grp)				NNN	HE
+Art	HORS_ART		horsart		Horse_Artillery(Hors.Art)			NNN	HE
+Art	LT_ART			ltart		Light_Artillery(Lt_Art)				NNN	HE
+Art	MORTAR			mortar		Mortar(Mortar)					NNN	
+
+Cav	CAV			cavalry		Cavalry(Cav)					---	HE
+
+Non-Mot	MIXED			mixed		Mixed(Mxd)					TTT	HE
+Non-Mot	AT			antitank	Antitank(AT)					--F	HE
+Non-Mot	HV_AA			hvaa		Heavy_Antiaircraft(Hv_AA)			--F	HE
+Non-Mot	POS_HV_AA		hvaa		Positional_Heavy_Antiaircraft(Pos_AA)		---	HE
+Non-Mot	V_WEAPONS		vweapons	V-weapons(V-wpns)				---	HE
+Non-Mot	PORT_FORT		portfort	Port_Fortification(Port_Fort)			---	HE
+Non-Mot	ASLT_ENG		aslteng		Assault_Engineer(Aslt_Eng)			--H	HE|ENG
+Non-Mot	AMPH_ASLT_ENG		amphaslteng	Amphibious_Assault_Engineer(Amph_Aslt_Eng)	--H	HE|ENG|AMPH
+Non-Mot	RR_ENG			rreng		Railroad_Engineer(RR_Eng)			---	HE
+Non-Mot	PORT_CONS		portconst	Port_Construction(Port_Cons)			---	HE|CONS
+Non-Mot	PL_CONS			portconst	Pipeline_Construction(PL_Cons)			---	HE
+
+Non-Mot	POS_LT_AA		ltaa		Positional_Light_Antiaircraft(Pos_AA)		---	
+Non-Mot	INF			infantry	Infantry(Inf)					---	
+Non-Mot	MTN			mtn		Mountain/Alpine(Mtn)				---	MTN
+Non-Mot	LT_INF			ltinf		Light_infantry/Jager(Lt_Inf)			---	LIGHT
+Non-Mot	STC			static		Static(Stc)					---	
+Non-Mot	FORT			fortress	Fortress(Fort)					---	
+Non-Mot	PUNITIVE		punitive	Punitive(Pntive)				---	CONS
+Non-Mot	PNTIVE_FORT		pntivefort	Punitive_Fortress(Pntive_Fort)			--- 
+Non-Mot	MARINE			marine		Marine(Marine)					---	AMPH
+Non-Mot NVL_TRPS		nvltrps		Naval_Troops(Nvl_Trps)				---	
+Non-Mot	MARINE_CMDO		marinecmdo	Marine_Commando(Mrn_Cdo)			---	AMPH
+Non-Mot	BDR			border		Border(Bdr)					---	
+Non-Mot	MG			machinegun	Machinegun(MG)					---	
+Non-Mot	SKI			ski		Ski(Ski)					---	SKI|LIGHT
+Non-Mot	HIGH_MOUNTAIN		highmtn		High_Mountain(High_Mtn)				---	MTN
+Non-Mot	SEC			security	Security(Sec)					---	
+Non-Mot	POL			police		Police(Pol)					---	
+Non-Mot	PLTCL_POL		pltclpol	Political_Police(Pltcl_Pol)			---	
+Non-Mot	LT_AA			ltaa		Light_Antiaircraft(Lt_AA)			---	
+Non-Mot	TRNG			training	Training(Trng)					---	
+Non-Mot	RES			reserve		Reserve(Res)					---	
+Non-Mot	REPL			reserve		Replacement(Repl)				---	
+Non-Mot	ENG			engineer	Combat_Engineer(Eng)				---	ENG|CONS
+Non-Mot	CONS			construction	Construction(Cons)				---	CONS
+Non-Mot	BICYCLE			bicycle		Bicycle(Bicycle)				---	
+Non-Mot	CMDO			commando	Commando(Cmdo)					---	LIGHT
+Non-Mot	PARA_CMDO		paracmdo	Parachute_Commando(Para_Cmdo)			---	LIGHT|AIRDROP
+Non-Mot	AIR_LNDG		airlndg		Air_Landing(Air_Lndg)				---	LIGHT
+Non-Mot	PARA			parachute	Parachute(Para)					---	LIGHT|AIRDROP
+Non-Mot PARA_INF		parainf		Parachute_Infantry(Para-inf)			---	
+Non-Mot	PARTISAN		partisan	Partisan(Prt)					---	LIGHT
+Non-Mot	COASTAL			static		Coastal(Coast)					---	
+Non-Mot	FORTAREA		fortarea	Fortified_Area(Fort_Area)			NNN	
+Non-Mot	TANKFACT		tankfact	Tank_Factory(Tank_fact)				---	HE|RR
+Non-Mot	ARTYFACT		artyfact	Artillery_Factory(Arty_fact)			---	HE|RR

@@ -1,0 +1,76 @@
+// UCC naval units
+
+// axis
+// side	nat				name				foreground		background		games
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_KM,   		"Kriegsmarine",		BLACK,			C(118,100,155), GameSetting::ALL);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_FIN,  		"Finnish",			C(58,95,205),	WHITE,          GameSetting::FITE | GameSetting::WW);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_ITA,  		"Italian",			BLACK,			ITA_GREEN,      GameSetting::ALL);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXSPA,		"Spanish",			BLACK,			C(246,207,67),  GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXPOR,		"Portuguese",		WHITE,			C(191,102,94),  GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_NATI,		"Nationalist",		BLACK,			C(246,207,67),  GameSetting::FWTBT);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_RUM,		"Rumanian",			WHITE,			C(30,0,100),    GameSetting::FITE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_HUN,		"Hungarian",		BLACK,			C(20,140,140),  GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_SLO,		"Slovakian",		C(200,213,255),	C(44,58,157),   GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_TURK,	"Turkish",			BLACK,			C(139,102,139), GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_IRAQ,	"Iraqi",			WHITE,			C(139,102,139), GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_IRAN,	"Iranian",			BLACK,			C(192,169,192), GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_SWE,		"Swedish",			WHITE,			C(28,59,175),   GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_EST,		"Estonian",			C(232,178,114),	WHITE,			GameSetting::WW | GameSetting::FTF);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_ALB,		"Albanian",			WHITE,			GER_GREEN,      GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_YUGO,	"Yugoslavian",		DNAVY,			WHITE,			GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_BUL,		"Bulgarian",		WHITE,			C(20,140,140),  GameSetting::FITE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_SOVNAVY,	"Soviet Naval",		WHITE,			C(178,34,34),   GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_LITH,	"Lithuanian",		BLACK,			C(247,222,67),  GameSetting::FTF);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AX_EGY,		"Egyptian",			C(139,102,139),	WHITE,			GameSetting::WITD);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXVICH,		"French",			BLACK,			FRBLUE,         GameSetting::FWTBT);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXDAN,		"Danish",			C(70,70,100),	C(255,255,72),  GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXLATV,		"Latvian",			WHITE,			C(232,178,114),	GameSetting::FTF | GameSetting::WW);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXETIO,		"Ethiopian",		BLACK,			C(255,105,180),	GameSetting::FTF | GameSetting::FITE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXSAUD,		"Saudi Arabian",	BLACK,			C(210,180,140),	GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_AXNORW,		"Norwegian",		C(126,40,70),	C(244,67,51), 	GameSetting::GE);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_IJN,		"Japanese Navy",	WHITE,			C(255,23,62), 	GameSetting::WW2PAC);
+UC(SidePlayer::AXIS,NavalArmedForce::Axis::NAV_IJA,		"Japanese Army",	BLACK,			C(255,23,62), 	GameSetting::WW2PAC);
+
+// allied
+// side	nat				name				foreground		background		games
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_SOV, 		"Soviet",			C(255,0,0),		C(25,55,236),	GameSetting::FITE | GameSetting::WW);		// new one EJW 26dec2013
+//UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_SOV, 		"Soviet",			WHITE,			C(178,34,34),	GameSetting::FITE | GameSetting::WW);	// old one
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_RN,  		"Royal Navy",		BLACK,			LTGRAY,			GameSetting::FWTBT | GameSetting::BF|GameSetting::SOS|GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_USA,		"US Navy",			WHITE,			BBGRAY,			GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_FRA,		"French",			BLACK,			FRBLUE,			GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AUS,		"Australian",		WHITE,			DKBROWN,		GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_BEL,		"Belgian",			OLIVE,			WHITE,			GameSetting::FITE | GameSetting::FOF);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_DUT,		"Dutch",			BLACK,			SFRED,			GameSetting::FITE | GameSetting::FOF);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_NOR,		"Norwegian",		C(126,40,70),	C(244,67,51),	GameSetting::SOS);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_ALPOR,	"Portuguese",		WHITE,			C(191,102,94),	GameSetting::GE | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_ALSPA,	"Spanish",			BLACK,			C(246,207,67),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_PPLS,		"People's Army",	BLACK,			C(118,94,180),	GameSetting::FWTBT);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_CANADA,	"Canadian",			BLACK,			DKBROWN,		GameSetting::GE | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_NZ,		"New Zealand",		BLACK,			DKBROWN,		GameSetting::GE | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_GREEK,	"Greek",   	  		WHITE,     		C(0,102,153), 	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_POLISH,	"Polish",			WHITE,			SFRED,			GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_ITA,	"Italian",			BLACK,			C(201,211,176),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_TURK,	"Turkish",			BLACK,			C(139,102,139),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_IRAQ,	"Iraqi",			WHITE,			C(139,102,139),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_IRAN,	"Iranian",			BLACK,			C(192,169,192),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_SWE,	"Swedish",			WHITE,			C(28,59,175),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_SAFR,		"South African",	WHITE,			DKBROWN,		GameSetting::GE | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_BRAZ,		"Brazilian",		BLACK,			OLIVE,			GameSetting::GE | GameSetting::BF);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_CZ,		"Czechoslovakian",	BLACK,			SFRED,			GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_YUGO,		"Yugoslav",			DNAVY,			WHITE,			GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_BUL,		"Bulgarian",		WHITE,			C(20,140,140),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_FIN,	"Finnish",			C(58,95,205),	WHITE,			GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_LITH,	"Lithuanian",		BLACK,			C(247,222,67),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_EST,	"Estonian",			C(232,178,114),	WHITE,			GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_EGY,	"Egyptian",			C(139,102,139),	WHITE,			GameSetting::WITD);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_BASQ,	"Basque",			WHITE,			C(119,103,77),	GameSetting::FWTBT);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_AL_CATA,	"Catalan",			BLACK,			C(119,103,77),	GameSetting::FWTBT);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_ALDAN,	"Danish",			C(70,70,100),	C(255,255,72),	GameSetting::GE | GameSetting::SOS);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_ALLATV,	"Latvian",			WHITE,			C(232,178,114),	GameSetting::FTF | GameSetting::WW);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_ALETIO,	"Ethiopian",		BLACK,			C(255,105,180),	GameSetting::FTF | GameSetting::FITE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_ALSAUD,	"Saudi Arabian",	BLACK,			C(210,180,140),	GameSetting::GE);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_CHINA,	"Chinese",			WHITE,			C(100,112,162),	GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_KWAN,		"Kwantung",			C(136,137,183),	CYEL,			GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_MSF,		"Chinese MSF",		BLACK,			CYEL,			GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_MNF,		"Chinese MNF",		WHITE,			CDYEL,			GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,NavalArmedForce::Allied::NAV_SHAN,		"Shantung",			BLACK,			CDYEL,			GameSetting::WW2PAC);

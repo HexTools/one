@@ -1,0 +1,1 @@
+#define ENUM_HEXUNITS(x,y,cntr)	for ( (cntr) = sit_[y][x].unit_list_;	(cntr);		(cntr) = (cntr)->getNext( ) )

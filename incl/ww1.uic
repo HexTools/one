@@ -1,0 +1,169 @@
+// UIC for WW1
+
+// TODO: check whether this is MP_MTN vice MP_OTHER
+UT( ALPINI, "Alpini", "Alpini", WW1PATH"alpini.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( ARMCAR, "Armored Car", "Arm Car", WW1PATH"armcar.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NEUT, AEC_NEUT, AEC_NEUT,
+	UTF_HAS_HE | UTF_MOTORIZED | UTF_WW1 );
+
+// TODO: check whether this is MP_LIGHT vice MP_OTHER
+UT( BERS, "Bersaglieri", "Bers", WW1PATH"bers.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+// TODO: check whether this is MP_LIGHT vice MP_OTHER
+UT( CHSSR, "Chasseur a'Pied", "Chrrs", WW1PATH"chssr.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( FLAME, "Flamethrower", "Flame", WW1PATH"flame.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( FLDART, "Field Artillery", "Fld Art", WW1PATH"fldart.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( FOOTART, "Foot Artillery", "Foot Art", WW1PATH"footart.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( GAR, "Garrison", "Garrison", WW1PATH"gar.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( GASENG, "Gas Engineer", "Gas Eng", WW1PATH"gaseng.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( GASFOOTART, "Gas Foot Artillery", "Gas Foot Art", WW1PATH"gasfootart.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( GASHVART, "Gas Heavy Artillery", "Gas Hv Art", WW1PATH"gashvart.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( GASHVMORT, "Gas Heavy Mortar", "Gas Hv Mort", WW1PATH"gashvmort.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( HVART, "Heavy Artillery", "Hv Art", WW1PATH"hvart.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( HVCAV, "Heavy Cavalry", "Hv Cav", WW1PATH"hvcav.bmp",
+	MP_CAV, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( HVMORT, "Heavy Mortar", "Hv Mort", WW1PATH"hvmort.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( HVSIEGEART, "Heavy Siege Artillery", "Hv Sg Art", WW1PATH"hvsiegeart.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( LTMORT, "Light Mortar", "Lt Mort", WW1PATH"ltmort.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( LTRIFLE, "Light Rifle", "Lt Rifle", WW1PATH"ltrifle.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( MARCH, "March", "March", WW1PATH"march.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( MARRIFLE, "Marine Rifle", "Mar Rifle", WW1PATH"marrifle.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( MECHRIFLE, "Mechanized Rifle", "Mech Rifle", WW1PATH"mechrifle.bmp",
+	MP_CM_ART, UC_COMBATMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 | UTF_MOTORIZED);
+
+UT( WW1_MG, "Machinegun (WW1);", "Mg", WW1PATH"mg.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( MTDRIFLE, "Mounted Rifle", "Mtd Rifle", WW1PATH"mtdrifle.bmp",
+	MP_CAV, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( PRTSNCAV, "Partisan Cavalry", "Prtsn Cav", WW1PATH"prtsncav.bmp",
+	MP_CAV, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( PRTSNRIFLE, "Partisan Rifle", "Prtsn Rifle", WW1PATH"prtsnrifle.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( RIFLE, "Rifle", "Rifle", WW1PATH"rifle.bmp",
+	MP_CM_ART, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( SIEGEENG, "Siege Engineer", "Sg Eng", WW1PATH"siegeeng.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( SHRPSHTR, "Sharpshooter", "Shrpshtr", WW1PATH"shrpshtr.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( SIEGEMORT, "Siege Mortar", "Sg Mort", WW1PATH"siegemort.bmp",
+	MP_OTHER, UC_ARTILLERY,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( SNOWSHOE, "Snowshoe", "Snowshoe", WW1PATH"snowshoe.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( STOSS, "Stosstruppen", "Stoss", WW1PATH"stoss.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( STOSSMG, "Stosstruppen Machingun", "Stoss Mg", WW1PATH"stossmg.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );
+
+UT( STURM, "Sturm", "Sturm", WW1PATH"sturm.bmp",
+	MP_OTHER, UC_NONMOT,
+	AEC_NONE, AEC_NONE, AEC_NONE,
+	UTF_WW1 );

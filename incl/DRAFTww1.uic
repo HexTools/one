@@ -1,0 +1,123 @@
+#
+# This is the Unit Identification Chart (UIC) for HexTools.
+# (c) 2013 HMSGRD 
+# All related materials are copyrights of Historical Military Services.
+#
+# #1 unit class
+# #2 unit type index
+# #3 unit type image filename
+# #4 unit type Fullname(Shortname)
+# #5 AECA AECD ATEC values (F|H|T|N|-), e.g. FFF or ---
+# #6 unit type flags (HE|ENG|CONS|LIGHT|MTN|SKI|RR|AMPH)
+# note: unit movement category (Mot/Art, Other, incl. Exceptions)
+#   will be derived from unit class and (sometimes) type
+#
+ERA:WW1
+#1 	#2		#3 		#4 							#5	#6
+#-- 	---		--- 		--- 							---	---
+C/m	ARM		armor		Armored(Arm)						FHF	HE
+C/m	<<LT_TANK>>	armcar		Light_Tank(Lt_Tank)					FH-	HE
+C/m	<<AMPH_LT_TNK>>	NEW		Amphibious_Light_Tank(Amphib_Lt_Tank)			FH-	HE
+C/m	ENG_TANK	engtank		Engineer_Tank(Eng_Tnk)					HHH	HE|ENG
+C/m	ASLT_ENG_TANK	asltengtank	Assault_Engineer_Tank(Aslt_Eng_Tnk)			HHH	HE|ENG
+C/m	<<FL_TANK>>	fltank		Flamethrower_Tank(Fl_Tnk)				HHH	HE|ENG
+C/m	MECHRIFLE	mechrifle	Mechanized_Rifle(Mech_Rifle)				HHF	HE	
+C/m	<<MOTORCYCLE>>	motorcycle	Motorcycle(M/C)						---	HE
+C/m	<<TRANSPORT>>	transport	Motorized_Transport(Mot_Trnspt)				NNN	HE
+
+Cav	HVCAV		hvcav		Heavy_Cavalry(Hv_Cav)					---	HE
+Cav	MTDRIFLE	mtdrifle	Mounted_Rifle(Mtd_Rifle)				---	HE	+ supp. mtn
+Cav	<MTD_RIF_TRNG>	NEW		Mounted_Rifle_Training(Mtn_Rifle_Trng)			---	HE
+Cav	PRTSNCAV	prtsncav	Irregular_Cavalry(Irr_Cav)				---	HE	* name change
+Cav	<MXD_MTD_RIF>	NEW		Mixed_Mounted_Rifle(Mixed)				---	HE
+Cav	<PACK_TRANS>	NEW		Pack_Transport(Trnsprt)					---	HE	+ supp. mtn.
+Cav	<SLEIGH_MG>	NEW		Sleigh_Machinegun(Sleigh_MG)				---	HE
+
+Art	HVART		hvart		Heavy_Artillery(Hv_Art)					---	HE	+ supp. mtn.
+Art	FOOTART		footart		Foot_Artillery(Foot_Art)				---	HE	* syn w/ Hv Art
+Art	HVMORT		hvmort		Heavy_Mortar(Hv_Mort)					---	HE
+Art	GASHVMORT	gashvmort	Gas_Heavy_Mortar(Gas_Hv_Mort)				---	HE
+Art	GASHVART	gashvart	Gas_Heavy_Artillery(Gas_Hv_Art)				---	HE
+Art	GASFOOTART	gasfootart	Gas_Foot_Artillery(Gas_Foot_Art)			---	HE	* syn Gas Hv?
+Art	HORS_ART	horsart		Horse_Artillery(Hors.Art)				---	HE	* Cav class?
+Art	<HVARTTRNG>	NEW		Heavy_Artillery_Training(Hv_Art_Trng)			---	HE	+ Foot syn
+Art	SIEGE_ART	siegeart	Siege_Artillery(Sge_Art)				---	HE
+Art	HVSIEGEART	hvsiegeart	Heavy_Siege_Artillery(Hv_Sg_Art)			---	HE
+Art	SIEGEMORT	siegemort	Siege_Mortar(Sg_Mort)					---	HE
+Art	COASTART	coastart	Coast_Artillery(Cst_Art)				---	HE
+Art	<SP_HV_ART>	NEW		Self-Propelled_Heavy_Artillery(SP_Hv_Art)		--H	HE	+ supp. mot.
+Art	LTMORT		ltmort		Light_Mortar(Lt_Mort)					---	
+Art	FLDART		fldart		Field_Artillery(Fld_Art)				---	+ supp. mtn/alp
+Art	<ALP_FLDART>	NEW		Alpine_Field_Artillery(Alp_Fld_Art)				* syn Mtn Fld Art
+
+Non-Mot	AT		antitank	Antitank(AT)						--F	
+Non-Mot	ASLT_ENG	aslteng		Assault_Engineer(Aslt_Eng)				--H	ENG
+Non-Mot	STURM		sturm		Sturm(Sturm)							* syn w/ Aslt Eng
+Non-Mot <AMPH_ASLT_ENG>	NEW		Amphibious_Assault_Engineer(Amph_Aslt_Eng)		--H	ENG|AMPH
+
+Non-Mot	FLAME		flame		Flamethrower(Flame)					--H	HE|ENG
+Non-Mot	HV_AA		hvaa		Heavy_Antiaircraft(Hv_AA)				--H	HE
+Non-Mot	SIEGEENG	siegeeng	Siege_Engineer(Sg_Eng)					---	HE
+Non-Mot	<AERIAL_BOMB>	NEW		Aerial_Bombardment(Air_Bmbrdmnt)			---	HE
+
+Non-Mot	RR_ENG		rreng		Railroad_Engineer(RR_Eng)				---	HE	+ supp. mtn.
+Non-Mot	GASENG		gaseng		Gas_Engineer(Gas_Eng)					---	HE
+Non-Mot	<PORT_CONS>	portconst	Port_Construction(Port_Cons)				---	HE
+Non-Mot	<PONTCONS>	construction	Pontoon_Construction_Engineer(Cons)			---	HE|CONS
+
+Non-Mot	BICYCLE		bicycle		Bicycle(Bike)						---	
+Non-Mot	STC		static		Static(Stc)						---	
+Non-Mot	COASTAL		static		Coastal(Coast)						---	* syn Static
+Non-Mot	GAR		gar		Garrison(Gar)						---	* syn Static
+Non-Mot	RIFLE		rifle		Rifle(Rifle)						---	+ supp. mtn/alp
+Non-Mot	<ALP_RIFLE>	NEW		Alpine_Rifle(Alp_Rifle)						* syn Mtn Rifle
+Non-Mot	LTRIFLE		ltrifle		Light_Rifle(Lt_Rifle)					---	LIGHT + supp. mtn
+Non-Mot	<CHSSR>		chssr		Chasseur_a'Pied(Chssr)						* syn Lt Rifle
+Non-Mot	<>		NEW		Chasseur_Alpin(Alp_Chssr)					* syn supp Mtn Lt Rifle
+Non-Mot	<>		NEW		Jager(Jgr)							* syn Lt Rifle
+Non-Mot	<>		NEW		Mountain_Jager(Mtn_Jgr)						* syn supp Mtn Lt Rifle
+Non-Mot	<BERS>		bers		Bersaglieri(Bers)						* syn Lt Rifle
+Non-Mot	<ALPINI>	alpini		Alpini(Alpini)							* syn supp Mtn Lt Rifle
+Non-Mot	<INF>		infantry	Infantry(Inf)						---	+ supp. mtn
+Non-Mot	STOSS		stoss		Stosstruppen(Stoss)						* syn Inf + sup.mtn
+Non-Mot	<RIFLE_ASLT>	NEW		Rifle_Assault(Rifle_Aslt)				---	?ENG?
+Non-Mot	<HIGH_MOUNTAIN>	highmtn		High_Mountain(High_Mtn)					---	MTN
+Non-Mot	<ALP_MOUNTAIN>	NEW		Alpine_Mountain(Alp_Mtn)					* syn High Mtn
+Non-Mot	<SKI>		ski		Ski(Ski)						---	SKI|LIGHT
+Non-Mot	SNOWSHOE	snowshoe	Snowshoe(Snowshoe)					---	
+Non-Mot <NVL_TRPS>	nvltrps		Naval_Troops(Nvl_Trps)					---	AMPH
+Non-Mot	MARRIFLE	marrifle	Marine_Rifle(Mar_Rifle)					---	AMPH
+Non-Mot	<MARINF>	NEW		Marine_Infantry(Mar_Inf)				---	AMPH
+Non-Mot	<AMPH_LTRIFLE>	NEW		Amphibious_Light_Rifle(Amph_Lt_Rifle)			---	LIGHT|AMPH
+Non-Mot	<FORT>		fortress	Fortress(Fort)						---	+ supp. mtn/alp
+Non-Mot	<ALP_FORT>	NEW		Alpine_Fortress(Alp_Fort)					* syn Mtn Fort
+Non-Mot	<BDR>		border		Border(Bdr)						---	
+Non-Mot	<TRNG>		training	Training(Trng)						---	+ supp. mtn
+Non-Mot	<REPL>		?reserve?	Replacement(Repl)					---	
+Non-Mot	PRTSNRIFLE	prtsnrifle	Irregular_Rifle(Irr_Rifle)				---	* name change
+Non-Mot	<ZEP_LNDNG>	NEW		Zeppelin_Landing(Zep_Lndng)				---
+Non-Mot	<PARA_MG>	NEW		Parachute_Machinegun(Para_MG)				---	
+Non-Mot	<SKI_MG>	NEW		Ski_Machinegun(Ski_MG)					---	
+Non-Mot	<LT_AA>		ltaa		Light_Antiaircraft(Lt_AA)				---	
+Non-Mot	WW1_MG		mg		Machinegun(MG)						---	+ supp. mtn/alp
+Non-Mot	<ALP_MG>	NEW		Alpine_Machinegun(Alp_MG)					* syn Mtn MG
+Non-Mot	STOSSMG		stossmg		Stosstruppen_Machingun(Stoss_MG)			---	* supp. mtn
+Non-Mot	<INF_MG>	NEW		Infantry_Machinegun(Inf_MG)					* syn Stoss MG
+Non-Mot	<JGR_MG>	NEW		Jager_Machinegun(Jgr_MG)				---	
+Non-Mot	<MG_TRNG>	NEW		Machinegun_Training(MG_Trng)				---	
+Non-Mot	<ENG>		engineer	Combat_Engineer(Eng)					---	ENG|CONS + supp mtn
+Non-Mot	<ENG_TRNG>	NEW		Combat_Engineer_Training(Eng_Trng)			---	
+Non-Mot	<CONS>		construction	Construction_Engineer(Cons)				---	CONS + supp mtn
+
+Presumably okay w/ adding these to WW1 UIC:
+Non-Mot	MARCH		march		March(March)						---	
+Non-Mot	TANKFACT	tankfact	Tank_Factory(Tank_fact)					---	HE|RR
+Non-Mot	ARTYFACT	artyfact	Artillery_Factory(Arty_fact)				---	HE|RR
+
+Unknown unit type (do you see it in the TGW UIC?):
+Non-Mot	SHRPSHTR	shrpshtr	Sharpshooter(Shrpshtr)					---	
+
+Removed from JET's WW1 UIC (they are only for WW2):
+Non-Mot	POS_HV_AA	hvaa		Positional_Heavy_Antiaircraft(Pos_AA)			---	HE
+Non-Mot	POS_LT_AA	ltaa		Positional_Light_Antiaircraft(Pos_AA)			---	
+Non-Mot	LT_INF		ltinf		Light_infantry/Jager(Lt_Inf)				---	LIGHT

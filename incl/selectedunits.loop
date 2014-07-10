@@ -1,0 +1,1 @@
+#define ENUM_SELUNITS(cntr)		for ( (cntr) = _selected_unit_list;		(cntr);		(cntr) = (cntr)->getNext( ) )

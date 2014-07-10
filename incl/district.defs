@@ -1,0 +1,408 @@
+{"256", "None"},
+{"257", "Aden"},//Colony of Britain"
+{"258", "Albania"},//Colony of Italy"
+{"259", "Algeria"},//Colony of France, later colony of Vichy, & still later Free French"
+{"260", "Andorra"},
+{"261", "Anglo_Egyptian Sudan"},//Colony of Britain"
+{"262", "Angola"},//Colony of Portugal"
+{"263", "Angola_NE"},
+{"264", "Angola_SE"},
+{"265", "Angola_West"},
+{"266", "AOI_Amhara Province"},//Colony of Italy (ex-Ethiopia)"
+{"267", "AOI_Eritrea Province"},//Colony of Italy (ex-Ethiopia)"
+{"268", "AOI_Galla & Sidamo Province"},//Colony of Italy (ex-Ethiopia)"
+{"269", "AOI_Harar Province"},//Colony of Italy (ex-Ethiopia)"
+{"270", "AOI_Somaliland Province"},//Colony of Italy (ex-Ethiopia)"
+{"271", "Australia"},
+{"272", "Australia_North"},
+{"273", "Austria_Hungary_Austria"},
+{"274", "Austria_Hungary_Bosn_Herce"},
+{"275", "Austria_Hungary_Hungary"},
+{"276", "Belgian Congo"},//Colony of Belgium"
+{"277", "Belgian Congo_NE"},
+{"278", "Belgian Congo_NW"},
+{"279", "Belgian Congo_SE"},
+{"280", "Belgian Congo_SW"},
+{"281", "Belgium"},
+{"282", "Brit Afr_Anglo_Egyptn Sudan"},
+{"283", "Brit Afr_British East Africa"},
+{"284", "Brit Afr_Uganda"},
+{"285", "Britain"},
+{"286", "British Borneo"},
+{"287", "British Borneo_NE"},
+{"288", "British Borneo_North"},
+{"289", "British Somaliland"},//Colony of Britain"
+{"290", "Brunei"},
+{"291", "Bulgaria"},
+{"292", "Cameroon"},
+{"293", "China_Anhwei"},
+{"294", "China_Chahar"},
+{"295", "China_Chekiang"},
+{"296", "China_East Hopei"},
+{"297", "China_Fukien"},
+{"298", "China_Honan"},
+{"299", "China_Hopei"},
+{"300", "China_Hopei_Peiping"},
+{"301", "China_Hunan"},
+{"302", "China_Hupei"},
+{"303", "China_International Concession"},
+{"304", "China_Jehol"},
+{"305", "China_Kansu"},
+{"306", "China_Kiangsi"},
+{"307", "China_Kiangsu"},
+{"308", "China_Kwangsi"},
+{"309", "China_Kwangtung"},
+{"310", "China_Kwangtung_Hainan"},
+{"311", "China_Kweichow"},
+{"312", "China_Ningsia"},
+{"313", "China_North Hopei"},
+{"314", "China_Shangtung"},
+{"315", "China_Shansi"},
+{"316", "China_Shensi"},
+{"317", "China_Sikang"},
+{"318", "China_Suiyuan"},
+{"319", "China_Szechwan"},
+{"320", "China_West China"},
+{"321", "China_Yunnan"},
+{"322", "Congo_Gabon"},
+{"323", "Congo_Middle Congo"},
+{"324", "Cyprus"},//Colony of Britain"
+{"325", "Danzig"},//To Germany"
+{"326", "Denmark"},
+{"327", "Denmark_Faeroe Islands"},
+{"328", "Denmark_Greenland"},
+{"329", "Denmark_Iceland"},
+{"330", "Egypt"},//Both an independent nation and a colony of Britain"
+{"331", "Estonia"},//To USSR in Baltic MD, then puppeted to Germany"
+{"332", "Finland"},
+{"333", "Finland_Gulf of Finland Islands"},//To USSR, Baltic MD, then back to Finland"
+{"334", "Finland_Hanko"},//To USSR, no MD, then back to Finland"
+{"335", "Finland_Rybachi Peninsula"},//To USSR, Arkhangelsk MD, then back to Finland (officially unnamed)"
+{"336", "Finland_Salla Strip"},//To USSR, Arkhangelsk MD, then back to Finland"
+{"337", "Finland_Karelia"},//To USSR, Arkhangelsk MD, then back to Finland"
+{"338", "Fr Afr_Ahaggar Touareg"},
+{"339", "Fr Afr_Ajjer Touareg"},
+{"340", "Fr Afr_Aulliminden Touareg"},
+{"341", "Fr Afr_Ayr Touareg"},
+{"342", "Fr Afr_Dahomey"},
+{"343", "Fr Afr_East French Morroco"},
+{"344", "Fr Afr_French Guinea"},
+{"345", "Fr Afr_High Atlas"},
+{"346", "Fr Afr_Ivory Coast"},
+{"347", "Fr Afr_Mauretania"},
+{"348", "Fr Afr_NMR (North)"},
+{"349", "Fr Afr_NMR (South)"},
+{"350", "Fr Afr_North Algeria"},
+{"351", "Fr Afr_North Tunisia"},
+{"352", "Fr Afr_Oubangi_Shari_Tchad"},
+{"353", "Fr Afr_Senegal"},
+{"354", "Fr Afr_South Algeria"},
+{"355", "Fr Afr_South French Morroco"},
+{"356", "Fr Afr_South Tunisia"},
+{"357", "Fr Afr_Upper Volta"},
+{"358", "Fr Afr_Upr Sngl_Niger (Nrth)"},
+{"359", "Fr Afr_Upr Sngl_Niger (Sth)"},
+{"360", "Fr Afr_W French Morocco"},
+{"361", "France"},
+{"362", "France_Alsace"},//Starts as France in MR20, then to Germany WK V"
+{"363", "France_Corsica"},//To Italy"
+{"364", "France_Lorraine"},//Starts as France in MR6, then to Germany, WK XII"
+{"365", "France_MR Paris"},
+{"366", "France_MR1"},
+{"367", "France_MR10"},
+{"368", "France_MR11"},
+{"369", "France_MR12_North"},
+{"370", "France_MR12_South"},//To Vichy"
+{"371", "France_MR13"},//To Vichy"
+{"372", "France_MR14_East"},//To Italy"
+{"373", "France_MR14_West"},//To Vichy"
+{"374", "France_MR15_East"},//To Italy"
+{"375", "France_MR15_West"},//To Vichy"
+{"376", "France_MR16"},//To Vichy"
+{"377", "France_MR17"},//To Vichy"
+{"378", "France_MR18_North"},
+{"379", "France_MR18_South"},//To Vichy"
+{"380", "France_MR2"},
+{"381", "France_MR20"},
+{"382", "France_MR3"},
+{"383", "France_MR4"},
+{"384", "France_MR5_East"},
+{"385", "France_MR5_West"},//To Vichy"
+{"386", "France_MR6"},
+{"387", "France_MR7"},
+{"388", "France_MR8_North"},
+{"389", "France_MR8_South"},//To Vichy"
+{"390", "France_MR9_North"},
+{"391", "France_MR9_South"},//To Vichy"
+{"392", "French Guinea"},
+{"393", "French Morocco"},//Colony of France, later colony of Vichy, & still later Free French"
+{"394", "French Somaliland"},//Colony of France, to Vichy, later to Free French"
+{"395", "French Soudan"},
+{"396", "Gambia"},//Colony of Britain"
+{"397", "German East Africa"},
+{"398", "Germany_Memeland"},//to Germany, WK I - Potential region - not on map, but part of a scenario? "
+{"399", "Germany_WK BM"},//Ex Czech part of Czechoslovakia"
+{"400", "Germany_WK I"},
+{"401", "Germany_WK II"},
+{"402", "Germany_WK III"},
+{"403", "Germany_WK IV"},
+{"404", "Germany_WK IX"},
+{"405", "Germany_WK V"},
+{"406", "Germany_WK VI"},
+{"407", "Germany_WK VII"},
+{"408", "Germany_WK VIII_West"},//Western"
+{"409", "Germany_WK X"},
+{"410", "Germany_WK XI"},
+{"411", "Germany_WK XII"},
+{"412", "Germany_WK XIII"},//contains ex Sudetenland"
+{"413", "Germany_WK XIV"},
+{"414", "Germany_WK XV"},
+{"415", "Germany_WK XVI"},
+{"416", "Germany_WK XVII"},//Ex Austria, contains ex Sudetenland"
+{"417", "Germany_WK XVIII"},//Ex Austria"
+{"418", "Germany_WK XX_East"},//Starts as WK I, upon annexation of poland, joined to WK XX"
+{"419", "Germany_WK XX_West"},//To Germany"
+{"420", "Germany_WK XXI"},//To Germany"
+{"421", "Gibraltar"},//Colony of Britain"
+{"422", "Gold Coast"},
+{"423", "Greece"},
+{"424", "Greece_Cham"},
+{"425", "Greece_Crete"},
+{"426", "Greece_Eastrn Thrace"},
+{"427", "Greece_Eastrn Thrace_To Turkey"},//To Turkey - missing on map, need to fix this"
+{"428", "Greece_Macedonia"},
+{"429", "Hong Kong"},
+{"430", "Hungary"},
+{"431", "Ifni"},//Colony of Spain"
+{"432", "Imp Germany_Alsace_Lorraine"},
+{"433", "Imp Germany_Anhalt"},
+{"434", "Imp Germany_Bavaria"},
+{"435", "Imp Germany_Braunschweig"},
+{"436", "Imp Germany_Hanse"},
+{"437", "Imp Germany_Hesse"},
+{"438", "Imp Germany_Lippe"},
+{"439", "Imp Germany_Oldenburg"},
+{"440", "Imp Germany_Palatinate"},
+{"441", "Imp Germany_Prussia"},
+{"442", "Imp Germany_Saxony"},
+{"443", "Imp Germany_Thuringia"},
+{"444", "Imp Germany_Waldeck"},
+{"445", "Imp Germany_Wurttemburg"},
+{"446", "Indochina"},
+{"447", "Indochina_Annam"},
+{"448", "Indochina_Cochinchina"},
+{"449", "Indochina_Tonkin"},
+{"450", "Iran"},
+{"451", "Iraq"},//Both an independent nation and a colony of Britain"
+{"452", "Italy"},
+{"453", "Italy_Abruzzi e Molise"},
+{"454", "Italy_Basilicata"},
+{"455", "Italy_Calabria"},
+{"456", "Italy_Campania"},
+{"457", "Italy_Dodecanese Islands"},
+{"458", "Italy_Elba"},
+{"459", "Italy_Emilia"},
+{"460", "Italy_Lagosta"},
+{"461", "Italy_Lampedusa"},
+{"462", "Italy_Lazio"},
+{"463", "Italy_Liguria"},
+{"464", "Italy_Lipari Islands"},
+{"465", "Italy_Lombardia"},
+{"466", "Italy_Marche"},
+{"467", "Italy_Pantelleria"},
+{"468", "Italy_Piemonte"},
+{"469", "Italy_Puglia"},
+{"470", "Italy_Sardinia"},
+{"471", "Italy_Sicily"},
+{"472", "Italy_Toscana"},
+{"473", "Italy_Umbria"},
+{"474", "Italy_Veneto"},
+{"475", "Italy_Veneto_Guilia"},
+{"476", "Italy_Veneto_Tridentino"},
+{"477", "Italy_Zara"},
+{"478", "Japan"},
+{"479", "Japan_Formosa"},
+{"480", "Japan_Kwantung"},
+{"481", "Japan_Okinawa"},
+{"482", "Kenya"},//Colony of Britain"
+{"483", "Kuwait"},//Colony of Britain"
+{"484", "Kwangchowan"},
+{"485", "Latvia"},//To USSR in Baltic MD, then puppeted to Germany"
+{"486", "Lebanon"},//Colony of France, to Vichy, later to Free French"
+{"487", "Liberia"},
+{"488", "Libya_Cyrenacia"},//Colony of Italy"
+{"489", "Libya_Cyrenacia_Kufra Oasis"},//Colony of Italy"
+{"490", "Libya_Fezzan"},
+{"491", "Libya_Tripolitania"},//Colony of Italy"
+{"492", "Lithuania"},//To USSR in Baltic MD, then puppeted to Germany"
+{"493", "Luxembourg"},
+{"494", "Macao"},
+{"495", "Madagascar"},//Colony of France, to Vichy, later to Free French"
+{"496", "Malta"},//Colony of Britain"
+{"497", "Manchukuo"},
+{"498", "Mauretania"},
+{"499", "Mauritius"},//Colony of Britain"
+{"500", "Mexico"},
+{"501", "Mozambique"},//Colony of Portugal"
+{"502", "Mozambique_Central"},
+{"503", "Mozambique_North"},
+{"504", "Mozambique_South"},
+{"505", "NEI"},
+{"506", "NEI_Bali"},
+{"507", "NEI_Borneo"},
+{"508", "NEI_Borneo_East"},
+{"509", "NEI_Borneo_Sarawok"},
+{"510", "NEI_Borneo_South"},
+{"511", "NEI_Borneo_SW"},
+{"512", "NEI_Celebes"},
+{"513", "NEI_Celebes_North"},
+{"514", "NEI_Celebes_SE"},
+{"515", "NEI_Celebes_SW"},
+{"516", "NEI_Java"},
+{"517", "NEI_Java_East"},
+{"518", "NEI_Java_West"},
+{"519", "NEI_Moluccas"},
+{"520", "NEI_Moluccas_Central"},
+{"521", "NEI_Moluccas_North"},
+{"522", "NEI_Moluccas_South"},
+{"523", "NEI_Sumatra"},
+{"524", "NEI_Sumatra_South"},
+{"525", "NEI_Timor"},
+{"526", "NEI_Timor_West"},
+{"527", "Netherlands"},
+{"528", "Neutral Zone"},//Unowned?"
+{"529", "Nigeria_North"},
+{"530", "Nigeria_South"},
+{"531", "Norway_Central"},
+{"532", "Norway_Finnmark"},
+{"533", "Norway_Jan Mayen"},
+{"534", "Norway_North"},
+{"535", "Norway_South"},
+{"536", "Norway_Svalbard"},
+{"537", "Palestine"},//Colony of Britain"
+{"538", "Philippines"},
+{"539", "Poland_Bialystok District"},//To USSR, Western MD"
+{"540", "Poland_Ciechenow District"},//To Germany (possibly WK XX?)"
+{"541", "Poland_Galicia"},//To USSR, Kiyev MD"
+{"542", "Poland_Polessie"},//To USSR, Western MD"
+{"543", "Poland_Suwalki District"},//To Germany (possibly WK I?)"
+{"544", "Poland_To Slovakia"},//To Slovakia, no name, single hex"
+{"545", "Poland_Vilnius Strip"},//To Lithuania"
+{"546", "Poland_Volhynia"},//To USSR, Kiyev MD"
+{"547", "Poland_West Byelorussia"},//To USSR, Western MD"
+{"548", "Poland_WK GG"},//To Germany"
+{"549", "Poland_WK VIII_East"},//To Germany"
+{"550", "Portugal"},
+{"551", "Portugal_Azore Islands"},
+{"552", "Portugal_Cape Verde Islands"},
+{"553", "Portugal_Madeira Islands"},
+{"554", "Portugal_Principe"},
+{"555", "Portugal_Sao Tome"},
+{"556", "Portuguese Guinea"},//Colony of Portugal"
+{"557", "Portuguese Timor"},//Colony of Portugal"
+{"558", "Reunion Island"},//Colony of France, to Vichy, later to Free French"
+{"559", "Romania_Bessarabia"},//To USSR, Odessa MD"
+{"560", "Romania_Bukovina"},//To USSR, Kiyev MD"
+{"561", "Romania_Central Romania"},
+{"562", "Romania_South Dobruja"},//To Bulgaria"
+{"563", "Romania_Transylvania"},//To Hungary"
+{"564", "Saudi Arabia"},
+{"565", "Senegal"},//Colony of France"
+{"566", "Sidi Ifni"},
+{"567", "Sierra Leone"},
+{"568", "Singapore"},
+{"569", "Slovakia"},//Ex-Czechoslovakia"
+{"570", "Spain_Andalucia"},
+{"571", "Spain_Aragon"},
+{"572", "Spain_Asturias"},//Separate nation in FWTBT"
+{"573", "Spain_Balearic Islands"},
+{"574", "Spain_Canary Islands"},
+{"575", "Spain_Castilla la Nueva"},
+{"576", "Spain_Castilla la Vieja"},
+{"577", "Spain_Cataluna"},//Separate nation in FWTBT"
+{"578", "Spain_Euzkadi"},//Separate nation in FWTBT (As Basque national force)"
+{"579", "Spain_Extremadura"},
+{"580", "Spain_Galicia"},//Note: In FWTBT, the Insurgents and Loyalist National Forces both share the same home country; no national provinces make up their respective nations, however, 4 provinces do create their own sub-governments which can be treated as separate nations (Gobernitos)"
+{"581", "Spain_Leon"},
+{"582", "Spain_Murcia"},
+{"583", "Spain_Navarre"},
+{"584", "Spain_Santander"},//Separate nation in FWTBT"
+{"585", "Spain_Southern Spanish Morroco"},
+{"586", "Spain_Spanish Morroco"},
+{"587", "Spain_Valencia"},
+{"588", "Spanish Guinea"},
+{"589", "Spanish Sahara"},//Colony of Spain"
+{"590", "Sth Afr_Basutoland"},
+{"591", "Sth Afr_Bechuanaland"},
+{"592", "Sth Afr_Cape Province"},
+{"593", "Sth Afr_Natal"},
+{"594", "Sth Afr_Northeast Rhodesia"},
+{"595", "Sth Afr_Nyasa Land"},
+{"596", "Sth Afr_Orange Free State"},
+{"597", "Sth Afr_South Rhodesia"},
+{"598", "Sth Afr_Swaziland"},
+{"599", "Sth Afr_Transvaal"},
+{"600", "Sweden_Gotland"},
+{"601", "Sweden_Norra MR"},
+{"602", "Sweden_Ostra MR"},
+{"603", "Sweden_Ovre Norrland MR"},//Region north of Norra MR, unnamed in the CE -- need to check this."
+{"604", "Sweden_Sodra MR"},
+{"605", "Sweden_Vastra MR"},
+{"606", "Switzerland"},
+{"607", "Syria"},//Colony of France, to Vichy, later to Free French"
+{"608", "Tanganyika"},//Colony of Britain"
+{"609", "Tangier"},//Free City"
+{"610", "Togo"},
+{"611", "Transjordan"},//Colony of Britain"
+{"612", "Tunisia"},//Colony of France, later colony of Vichy, & still later Free French"
+{"613", "Turkey"},
+{"614", "Uganda"},//Colony of Britain"
+{"615", "United States"},
+{"616", "USSR_Arkhangelsk MD"},
+{"617", "USSR_Arkhangelsk MD_Reboly"},//Potentially to Finland"
+{"618", "USSR_Kharkov MD"},
+{"619", "USSR_Kiyev MD"},
+{"620", "USSR_Kiyev MD_North Transneistria"},
+{"621", "USSR_Leningrad MD"},
+{"622", "USSR_Moskva MD"},
+{"623", "USSR_North Caucasus MD"},
+{"624", "USSR_Odessa MD"},
+{"625", "USSR_Odessa MD_South Transneistria"},
+{"626", "USSR_Orel MD"},
+{"627", "USSR_Transcaucasus MD"},
+{"628", "USSR_Urals MD"},
+{"629", "USSR_Volga MD"},
+{"630", "USSR_West MD_East"},
+{"631", "USSR_West MD_East Byelorussia"},
+{"632", "Yemen"},
+{"633", "Yugo_Croatia"},//To puppet of Germany"
+{"634", "Yugo_Croatia_Bosnia_Herzgvn"},
+{"635", "Yugo_Dalmatia"},
+{"636", "Yugo_Kosovo"},
+{"637", "Yugo_Macedonia"},
+{"638", "Yugo_Macedonia_To Albania"},//To Albania, colony of Italy"
+{"639", "Yugo_Montenegro"},
+{"640", "Yugo_Serbia"},
+{"641", "Yugo_Serbia_Backa"},//To Hungary"
+{"642", "Yugo_Serbia_To Bulgaria"},//To Bulgaria"
+{"643", "Yugo_Slovenia_North"},//To puppet of Germany"
+{"644", "Yugo_Slovenia_South"},//To puppet of Germany"
+{"645", "Yugo_Slovenia_To Hungary"},//Starts as Yugo (Slovenia), to Hungary; unnamed 3 hexes"
+{"646", "Finland_Aland Islands"},
+{"647", "Belgium_to Germany"},
+{"648", "Poland_WK XX"},
+{"649", "Poland_WK XXI"},
+{"650", "Comoro Islands"},
+{"651", "Palau"},
+{"652", "Ulithi/Yap"},
+{"653", "Marianas"},
+{"654", "South China"},
+{"655", "North China"},
+{"656", "Central China"},
+{"657", "China_Hainan"},
+{"658", "Imp Germany_Baden"},
+{"659", "Rio de Oro"},
+{"660", "German Southwest Africa"},
+{"661", "Walvisbaal"},
+{"662", "Sth Afr_Northwest Rhodesia"},
+{"663", "China_North Chahar"},

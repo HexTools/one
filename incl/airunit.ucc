@@ -1,0 +1,91 @@
+// UCC air units
+
+// axis
+// side	nat				name				foreground1		foreground2		background		games
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_LW,			"Luftwaffe",		BLACK,			BLACK,			C(176,196,222),	GameSetting::ALL);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_ITA,		"Italian",			BLACK,			BLACK,			ITA_GREEN,		GameSetting::ALL);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_RUM,		"Rumanian",			WHITE,			WHITE,			C(30,0,100),	GameSetting::WW2&~GameSetting::WITD);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_HUN,		"Hungarian",		BLACK,			BLACK,			C(20,140,140),	GameSetting::WW2&~GameSetting::WITD);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_FIN,		"Finnish",			C(58,95,205),	C(58,95,205),	C(245,245,245),	GameSetting::FITE | GameSetting::WW);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXTRK,		"Turkish",			BLACK,			BLACK,			C(139,102,139),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_NATI,		"Nationalist",		BLACK,			BLACK,			C(246,207,67),	GameSetting::FWTBT);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXYG,		"Yugoslav",			DNAVY,			SFRED,			WHITE,			GameSetting::FWTBT | GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXBUL,		"Bulgarian",		WHITE,			WHITE,			C(20,140,140),	GameSetting::FITE | GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXSPA,		"Spanish",			BLACK,			BLACK,			C(246,207,67),	GameSetting::GE | GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXPOR,		"Portuguese",		WHITE,			WHITE,			C(191,102,94),	GameSetting::GE | GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXIRAN,		"Iranian",			BLACK,			BLACK,			C(192,169,192),	GameSetting::WITD);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXIRAQ,		"Iraqi",			BLACK,			BLACK,			C(139,102,139),	GameSetting::WITD);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXEGY,		"Egyptian",			C(139,102,139),	C(139,102,139),	WHITE,			GameSetting::WITD);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXSOV,		"Soviet",			BLACK,			BLACK,			C(205,133,63),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXGUARD,	"Soviet Guards",	BLACK,			BLACK,			C(255,0,0),		GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXSWE,		"Swedish",			WHITE,			WHITE,			C(28,59,255),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXEST,		"Estonian",			C(232,178,114),	C(232,178,114),	WHITE,			GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXLITH,		"Lithuanian",		BLACK,			BLACK,			C(247,222,67),	GameSetting::FTF | GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXVICH,		"French",			BLACK,			BLACK,			C(79,148,205),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXSWI,		"Swiss",			WHITE,			WHITE,			SFRED,			GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXDAN,		"Danish",			C(70,70,100),	C(70,70,100),	C(255,255,72),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXLATV,		"Latvian",			WHITE,			WHITE,			C(232,178,114),	GameSetting::FTF | GameSetting::WW);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXETIO,		"Ethiopian",		BLACK,			BLACK,			C(255,105,180),	GameSetting::FTF | GameSetting::FITE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXSAUD,		"Saudi Arabian",	BLACK,			FRBLUE,			C(210,180,140),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXNORW,		"Norwegian",		C(126,40,70),	WHITE,			C(244,67,51),	GameSetting::GE);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_WW1_GER,	"German",			BLACK,			BLACK,			WW1_GER_GRAY,	GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_WW1_AH,		"Austro-Hungarian",	WW1_GER_GRAY,	FRBLUE,			WHITE,			GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_SLO,		"Slovakian",		C(200,213,255),	C(200,213,255),	C(44,58,157),	GameSetting::WW2&~GameSetting::WITD);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_IJA,		"Imperial Japanese Army",BLACK,		BLACK,			C(255,23,62),	GameSetting::WW2PAC);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_IJN,		"Imperial Japanese Navy",WHITE,		WHITE,			C(255,23,62),	GameSetting::WW2PAC);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_AXWW1DUT,	"Dutch",			BLACK,			BLACK,			C(255,139,113),	GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_WW1AXITA,	"Italian ",			BLACK,			BLACK,			C(254,89,35),	GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_WW1GERNAV,	"German Navy ",		WHITE,			WHITE,			WW1_GER_LT_GRAY,GameSetting::BF);
+UC(SidePlayer::AXIS,AirArmedForce::Axis::AIR_WW1AXITANAV,"Italian Navy ",	BLACK,			BLACK,			C(254,89,35),	GameSetting::BF);
+
+// allied
+// side	  nat			name				foreground1		foreground2		background		games
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_SOV,		"Soviet",			BLACK,			BLACK,			C(205,133,63),	GameSetting::FITE | GameSetting::FTF | GameSetting::WW);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_GUARDS,	"Soviet Guards",	BLACK,			BLACK,			C(255,0,0),		GameSetting::FITE | GameSetting::FTF | GameSetting::WW);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_USAAF,	"USAAF",			BLACK,			BLACK,			C(148,151,96),	GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_USNAVY,	"US Navy",			WHITE,			WHITE,			C(85,107,47),	GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_RAF,		"RAF",				BLACK,			BLACK,			C(205,196,176),	(GameSetting::ALL & ~GameSetting::FITE) | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_FRENCH,	"French",			BLACK,			BLACK,			C(79,148,205),	GameSetting::ALL | GameSetting::BF | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_GREEK,	"Greek",			C(30,0,100),	WHITE,			C(0,102,153),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_POL,		"Polish",			WHITE,			WHITE,			C(205,51,51),	GameSetting::FITE | GameSetting::FTF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_CANADA,	"RCAF",				BLACK,			BLACK,			DKBROWN,		GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_AUS,		"RAAF",				WHITE,			WHITE,			DKBROWN,		GameSetting::FWTBT | GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_FAA,		"FAA",				BLACK,			BLACK,			LTGRAY,			GameSetting::ALL&~GameSetting::FITE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_NZ,		"RNZAF",			BLACK,			WHITE,			DKBROWN,		GameSetting::FWTBT | GameSetting::WW2PAC);  //BLACK, WHITE
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_SAFR,		"SAAF",				WHITE,			BLACK,			DKBROWN,		GameSetting::FWTBT | GameSetting::BF | GameSetting::WW2PAC);  //WHITE, BLACK
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_BELG,		"Belgian",			OLIVE,			OLIVE,			WHITE,			GameSetting::FITE | GameSetting::FOF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_DUTCH,	"Dutch",			WHITE,			BLACK,			SFRED,			GameSetting::FITE | GameSetting::FOF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_CZ,		"Czechoslovakian",	BLACK,			BLACK,			SFRED,			GameSetting::GE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_NORW,		"Norwegian",		C(126,40,70),	WHITE,			C(244,67,51),	GameSetting::SOS);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALTRK,	"Turkish",			BLACK,			BLACK,			C(139,102,139),	GameSetting::GE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_PPL,		"People's Army",	BLACK,			BLACK,			C(118,94,180),	GameSetting::FWTBT);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_YUGO,		"Yugoslav",			DNAVY,			SFRED,			WHITE,			GameSetting::FWTBT | GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALSPA,	"Spanish",			BLACK,			BLACK,			C(246,207,67),	GameSetting::GE  |GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALPOR,	"Portuguese",		WHITE,			WHITE,			C(191,102,94),	GameSetting::GE | GameSetting::WW2PAC | GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALIRAQ,	"Iraqi",			BLACK,			BLACK,			C(139,102,139),	GameSetting::WITD);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALIRAN,	"Iranian",			BLACK,			BLACK,			C(192,169,192),	GameSetting::WITD);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALEGY,	"Egyptian",			C(139,102,139),	C(139,102,139),	WHITE,			GameSetting::WITD);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALITA,	"Italian",			BLACK,			BLACK,			ITA_GREEN,		GameSetting::FITE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALFIN,	"Finnish",			C(58,95,205),	C(58,95,205),	C(245,245,245),	GameSetting::GE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALSWE,	"Swedish",			WHITE,			WHITE,			C(28,59,255),	GameSetting::GE | GameSetting::SOS);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALEST,	"Estonian",			C(232,178,114),	C(232,178,114),	WHITE,			GameSetting::GE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALLITH,	"Lithuanian",		BLACK,			BLACK,			C(247,222,67),	GameSetting::FTF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALBUL,	"Bulgarian",		WHITE,			WHITE,			C(20,140,140),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_FREEFR,	"Free French",		FRBLUE,			FRBLUE,			C(190,230,240),	GameSetting::WITD);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALSWI,	"Swiss",			WHITE,			WHITE,			SFRED,			GameSetting::GE | GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALDAN,	"Danish",			C(70,70,100),	C(70,70,100),	C(255,255,72),	GameSetting::GE | GameSetting::SOS);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALLATV,	"Latvian",			WHITE,			WHITE,			C(232,178,114),	GameSetting::FTF | GameSetting::WW);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALETIO,	"Ethiopian",		BLACK,			BLACK,			C(255,105,180),	GameSetting::FTF | GameSetting::FITE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_ALSAUD,	"Saudi Arabian",	BLACK,			FRBLUE,			C(210,180,140),	GameSetting::GE);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_RFC,		"Royal Flying Corps",BLACK,			BLACK,			C(205,196,176),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_CHINA,	"China Central Army",BLACK,			BLACK,			C(130,152,176),	GameSetting::WW2PAC);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_USAIR,	"US Aeronautical Section",BLACK,	BLACK,			C(148,151,96),	GameSetting::BF);
+// WW1 variants for some countries (space after name to distinguish between WW2 and WW1 variant)
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1DUT,	"Dutch ",			BLACK,			BLACK,			C(255,139,113),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1ITA,	"Italian ",			BLACK,			BLACK,			C(254,89,35),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1BEL,	"Belgian ",			BLACK,			BLACK,			C(0,99,0),		GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1RUS,	"Russain ",			BLACK,			BLACK,			C(42,160,126),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1BRITNAV,"Royal Navy ",		WHITE,			WHITE,			C(158,150,117),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1FRNAV,	"French Navy ",		WHITE,			WHITE,			C(129,198,255),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1ITANAV,"Italian Navy ",	BLACK,			BLACK,			C(254,89,35),	GameSetting::BF);
+UC(SidePlayer::ALLIED,AirArmedForce::Allied::AIR_WW1USNAV,	"US Navy ",			WHITE,			WHITE,			BBGRAY,			GameSetting::BF);

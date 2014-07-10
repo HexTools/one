@@ -1,0 +1,5 @@
+{ "00", "Neutral" },
+{ "01", "Axis/CP" },
+{ "02", "Allied/Entente" },
+{ "03", "Soviet/Russian" },
+{ "07", "None" }
